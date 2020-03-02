@@ -32,7 +32,7 @@ SRC_URI = "\
           git://${GIT_BASE_URL}/peter.deherdt/libubox.git;branch=dev_sah;protocol=https;nobranch=1; \
           "
 
-SRCREV = "ff79d5ae6ccc016fc8dae64bc2c2e62863e80dfa"
+SRCREV = "83e3fec35a31737bbeb542d9ece5adc9a3ce8efb"
 
 ABI_VERSION = "20170601"
 

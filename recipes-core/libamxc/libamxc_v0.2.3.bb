@@ -7,5 +7,12 @@ DEPENDS = ""
 
 LIC_FILES_CHKSUM = "file://LICENSE;beginline=1;endline=21;md5=95e8fbfc71f3d0c82aee71089b47a04c"
 
-SRCREV = "afff5af77e60ed3428125d1a292d4d2a0d7a99e2"
-SRC_URI = "https://${GIT_BASE_URL}/ambiorix/libraries/libamxc/"
+SRCREV = "v0.2.3"
+SRC_URI = "git://${GIT_BASE_URL}/ambiorix/libraries/libamxc.git;protocol=https;nobranch=1;"
+S = "${WORKDIR}/git"
+
+EXTRA_OEMAKE = "DEST=${D} INSTALL_LIB_DIR=lib"
+
+do_install() {
+        oe_runmake install
+}

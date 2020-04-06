@@ -10,7 +10,7 @@ SRC_URI = "git://${GIT_BASE_URL}/peter.deherdt/ubus.git;branch=dev_sah;protocol=
 
 SRCREV = "829e22df7e87d8505154e1d1fdba1cc2246ccf03"
 
-ABI_VERSION = "20170705"
+ABI_VERSION = "20191227"
 
 S = "${WORKDIR}/git"
 

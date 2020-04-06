@@ -3,11 +3,11 @@ DESCRIPTION = "PCB back-end implementation for bus agnostic API."
 HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/modules/amxb_backends/amxb_pcb"
 LICENSE = "MIT"
 SECTION = "base"
-DEPENDS = "libamxc libamxb lib-pcb"
+DEPENDS = "libamxc libamxb libamxd libpcb"
 
 LIC_FILES_CHKSUM = "file://LICENSE;beginline=1;endline=21;md5=12ee6b8140ae9965800c9c380e2c9073"
 
-SRCREV = "d4b887d2596ef23efc34131354d5781eacdf9da8"
+SRCREV = "v0.1.2"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/modules/amxb_backends/amxb_pcb.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 

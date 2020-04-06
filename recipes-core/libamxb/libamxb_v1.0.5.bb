@@ -3,12 +3,14 @@ DESCRIPTION = "Libamxb is a library that provides an API that makes it possible 
 HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/libraries/libamxb/"
 LICENSE = "MIT"
 SECTION = "lib"
-DEPENDS = "libamxc libamxp uriparser"
+DEPENDS = "libamxc libamxp libamxd uriparser"
 
 LIC_FILES_CHKSUM = "file://LICENSE;beginline=1;endline=21;md5=12ee6b8140ae9965800c9c380e2c9073"
 
-SRCREV = "d1b0d6f73aa04a25d205371bef80b6ea6bcbac4f"
-SRC_URI = "git://${GIT_BASE_URL}/ambiorix/libraries/libamxb.git;protocol=https;nobranch=1;"
+SRCREV = "v1.0.5"
+SRC_URI = "git://${GIT_BASE_URL}/ambiorix/libraries/libamxb.git;protocol=https;nobranch=1; \
+           file://0001-use-regular-getenv-instead-of-secure_getenv.patch \
+           "
 S = "${WORKDIR}/git"
 
 EXTRA_OEMAKE = "DEST=${D} INSTALL_LIB_DIR=lib"

@@ -2,9 +2,9 @@ DESCRIPTION = "Synchronous (no eventloop) client using bus agnostic api (baapi)"
 HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/examples/baapi/sync_invoke"
 LICENSE = "CLOSED"
 SECTION = "examples"
-DEPENDS = "libamxc libamxj libamxb"
+DEPENDS = "libamxc libamxj libamxb libamxd"
 
-SRCREV = "56272231ce058320d3406e346574dd1981ef5310"
+SRCREV = "a0a4c9c79320bed43407d44ab35f579ec8b54532"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/examples/baapi/sync_invoke.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 

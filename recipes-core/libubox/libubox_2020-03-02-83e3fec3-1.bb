@@ -34,7 +34,7 @@ SRC_URI = "\
 
 SRCREV = "83e3fec35a31737bbeb542d9ece5adc9a3ce8efb"
 
-ABI_VERSION = "20170601"
+ABI_VERSION = "20191228"
 
 S = "${WORKDIR}/git"
 

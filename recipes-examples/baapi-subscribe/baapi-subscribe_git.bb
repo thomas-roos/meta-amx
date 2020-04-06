@@ -2,9 +2,9 @@ DESCRIPTION = "Asynchronous (eventloop using libevent) subscription client using
 HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/examples/baapi/subscribe"
 LICENSE = "CLOSED"
 SECTION = "examples"
-DEPENDS = "libamxc libamxb libevent"
+DEPENDS = "libamxc libamxb libamxd libevent"
 
-SRCREV = "e9c4699f219cb732620c898831d6333f54a68435"
+SRCREV = "33321ebc389c9a99a728d51a80bfd1925c1fd80a"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/examples/baapi/subscribe.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 

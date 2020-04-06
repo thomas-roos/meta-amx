@@ -2,9 +2,9 @@ DESCRIPTION = "Bus Agnostic back-ends are shared objects that implements the bus
 HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/examples/baapi/subscribe"
 LICENSE = "CLOSED"
 SECTION = "tools"
-DEPENDS = "libamxb"
+DEPENDS = "libamxb libamxd"
 
-SRCREV = "v0.0.1"
+SRCREV = "de19e922d9786ea6f805b744d331a25792154cbd"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/applications/amxb-inspect.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 

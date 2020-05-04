@@ -7,7 +7,7 @@ DEPENDS = "libamxc libamxp"
 
 LIC_FILES_CHKSUM = "file://LICENSE;beginline=1;endline=21;md5=95e8fbfc71f3d0c82aee71089b47a04c"
 
-SRCREV = "v0.0.9"
+SRCREV = "v0.1.0"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/libraries/libamxd.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 

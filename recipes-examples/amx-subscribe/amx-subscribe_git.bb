@@ -9,5 +9,5 @@ SRC_URI = "git://${GIT_BASE_URL}/ambiorix/examples/baapi/subscribe.git;protocol=
 S = "${WORKDIR}/git"
 
 do_install() {
-    install -D -m 0755 ${B}/subscribe ${D}/bin/subscribe_ba_client
+    install -D -m 0755 ${B}/subscribe ${D}/bin/amx_subscribe
 }

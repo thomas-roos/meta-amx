@@ -16,11 +16,17 @@ RDEPENDS_${PN} = " \
     amxb-inspect \
     amxb-ubus \
     amxb-pcb \
-    baapi-sync-invoke \
-    baapi-async-invoke \
-    baapi-invoke-wait \
-    baapi-subscribe \
-    baapi-amx-greeter \
+    amxrt \
+    amxo-cg \
+    amx-dm-demo \
+    amx-sync-invoke \
+    amx-async-invoke \
+    amx-invoke-wait \
+    amx-subscribe \
+    amx-greeter \
+    amx-greeter-using-odl-ftab \
+    amx-greeter-using-odl-import \
+    amx-greeter-using-odl-import-pcb-style \
     libubox-lua \
     libubus-lua \
     libubus-examples \

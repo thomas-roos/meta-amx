@@ -9,5 +9,5 @@ SRC_URI = "git://${GIT_BASE_URL}/ambiorix/examples/baapi/sync_invoke.git;protoco
 S = "${WORKDIR}/git"
 
 do_install() {
-    install -D -m 0755 ${B}/sync_invoke ${D}/bin/sync_ba_client
+    install -D -m 0755 ${B}/sync_invoke ${D}/bin/amx_sync_invoke
 }

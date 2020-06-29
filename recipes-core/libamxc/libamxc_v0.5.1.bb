@@ -1,14 +1,14 @@
 # Released under the MIT license (see COPYING.MIT for the terms)
-DESCRIPTION = "Libamxp is a library containing common patterns used in the amx project."
-HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/libraries/libamxp/"
+DESCRIPTION = "Libamxc is a library containing data containers, implemented in ansi C (C99)."
+HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/libraries/libamxc/"
 LICENSE = "MIT"
 SECTION = "lib"
-DEPENDS = "libamxc"
+DEPENDS = ""
 
 LIC_FILES_CHKSUM = "file://LICENSE;beginline=1;endline=21;md5=95e8fbfc71f3d0c82aee71089b47a04c"
 
-SRCREV = "v0.1.9"
-SRC_URI = "git://${GIT_BASE_URL}/ambiorix/libraries/libamxp.git;protocol=https;nobranch=1;"
+SRCREV = "v0.5.1"
+SRC_URI = "git://${GIT_BASE_URL}/ambiorix/libraries/libamxc.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 
 EXTRA_OEMAKE = "DEST=${D} INSTALL_LIB_DIR=lib"

@@ -7,7 +7,7 @@ DEPENDS = "libamxc libamxb libamxd libpcb"
 
 LIC_FILES_CHKSUM = "file://LICENSE;beginline=1;endline=21;md5=12ee6b8140ae9965800c9c380e2c9073"
 
-SRCREV = "v0.1.4"
+SRCREV = "v0.2.2"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/modules/amxb_backends/amxb_pcb.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 

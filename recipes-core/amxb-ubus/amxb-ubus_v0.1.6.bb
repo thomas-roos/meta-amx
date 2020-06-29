@@ -7,7 +7,7 @@ DEPENDS = "libamxc libamxp libamxb libamxd ubus libubox"
 
 LIC_FILES_CHKSUM = "file://LICENSE;beginline=1;endline=21;md5=12ee6b8140ae9965800c9c380e2c9073"
 
-SRCREV = "v0.1.3"
+SRCREV = "v0.1.6"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/modules/amxb_backends/amxb_ubus.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 

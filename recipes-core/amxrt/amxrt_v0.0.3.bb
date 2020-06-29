@@ -4,7 +4,7 @@ LICENSE = "CLOSED"
 SECTION = "applications"
 DEPENDS = "libevent libamxc libamxp libamxd libamxb libamxo"
 
-SRCREV = "v0.0.2"
+SRCREV = "v0.0.3"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/applications/amxrt.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 

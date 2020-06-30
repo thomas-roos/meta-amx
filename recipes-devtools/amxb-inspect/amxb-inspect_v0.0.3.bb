@@ -4,7 +4,7 @@ LICENSE = "CLOSED"
 SECTION = "tools"
 DEPENDS = "libamxb libamxd"
 
-SRCREV = "de19e922d9786ea6f805b744d331a25792154cbd"
+SRCREV = "v0.0.3"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/applications/amxb-inspect.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 

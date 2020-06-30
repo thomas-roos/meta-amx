@@ -4,7 +4,7 @@ LICENSE = "CLOSED"
 SECTION = "tools"
 DEPENDS = "libamxc libamxd libamxo"
 
-SRCREV = "v0.0.2"
+SRCREV = "v0.0.3"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/applications/amxo-cg.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 

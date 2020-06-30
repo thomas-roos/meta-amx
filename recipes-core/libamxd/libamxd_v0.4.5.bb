@@ -1,14 +1,14 @@
 # Released under the MIT license (see COPYING.MIT for the terms)
-DESCRIPTION = "Libamxo is a library to provide odl support."
-HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/libraries/libamxo/"
+DESCRIPTION = "Libamxd is a library providing generic API for managing a data model"
+HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/libraries/libamxd/"
 LICENSE = "MIT"
 SECTION = "lib"
-DEPENDS = "libamxc libamxp libamxd bison-native"
+DEPENDS = "libamxc libamxp"
 
 LIC_FILES_CHKSUM = "file://LICENSE;beginline=1;endline=21;md5=95e8fbfc71f3d0c82aee71089b47a04c"
 
-SRCREV = "v0.0.9"
-SRC_URI = "git://${GIT_BASE_URL}/ambiorix/libraries/libamxo.git;protocol=https;nobranch=1;"
+SRCREV = "v0.4.5"
+SRC_URI = "git://${GIT_BASE_URL}/ambiorix/libraries/libamxd.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 
 EXTRA_OEMAKE = "DEST=${D} INSTALL_LIB_DIR=lib"

@@ -7,7 +7,7 @@ DEPENDS = "libamxc libamxp libamxd uriparser"
 
 LIC_FILES_CHKSUM = "file://LICENSE;beginline=1;endline=21;md5=12ee6b8140ae9965800c9c380e2c9073"
 
-SRCREV = "v1.0.7"
+SRCREV = "v1.0.9"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/libraries/libamxb.git;protocol=https;nobranch=1; \
            file://0001-use-regular-getenv-instead-of-secure_getenv.patch \
            "

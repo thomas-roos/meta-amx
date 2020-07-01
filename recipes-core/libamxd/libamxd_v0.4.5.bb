@@ -1,7 +1,7 @@
 # Released under the MIT license (see COPYING.MIT for the terms)
 DESCRIPTION = "Libamxd is a library providing generic API for managing a data model"
 HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/libraries/libamxd/"
-LICENSE = "MIT"
+LICENSE = "BSD-plus-patent"
 SECTION = "lib"
 DEPENDS = "libamxc libamxp"
 

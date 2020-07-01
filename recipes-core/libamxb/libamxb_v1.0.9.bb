@@ -1,7 +1,7 @@
 # Released under the MIT license (see COPYING.MIT for the terms)
 DESCRIPTION = "Libamxb is a library that provides an API that makes it possible to connect to different kind of software buses and perform actions on it. This library acts as an mediator between the application using the API and the real bus. The real implementation (communication with a specific bus) is in the backends."
 HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/libraries/libamxb/"
-LICENSE = "MIT"
+LICENSE = "BSD-plus-patent"
 SECTION = "lib"
 DEPENDS = "libamxc libamxp libamxd uriparser"
 

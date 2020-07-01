@@ -1,7 +1,7 @@
 # Released under the MIT license (see COPYING.MIT for the terms)
 DESCRIPTION = "Libamxp is a library containing common patterns used in the amx project."
 HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/libraries/libamxp/"
-LICENSE = "MIT"
+LICENSE = "BSD-plus-patent"
 SECTION = "lib"
 DEPENDS = "libamxc"
 

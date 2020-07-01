@@ -1,7 +1,7 @@
 # Released under the MIT license (see COPYING.MIT for the terms)
 DESCRIPTION = "Libamxj is an extension library for libamxc. The library provides a JSON parser generator using yajl and libamxc variants."
 HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/libraries/libamxj/"
-LICENSE = "MIT"
+LICENSE = "BSD-plus-patent"
 SECTION = "lib"
 DEPENDS = "libamxc yajl"
 

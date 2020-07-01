@@ -1,7 +1,7 @@
 # Released under the MIT license (see COPYING.MIT for the terms)
 DESCRIPTION = "Libamxo is a library to provide odl support."
 HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/libraries/libamxo/"
-LICENSE = "MIT"
+LICENSE = "BSD-plus-patent"
 SECTION = "lib"
 DEPENDS = "libamxc libamxp libamxd bison-native"
 

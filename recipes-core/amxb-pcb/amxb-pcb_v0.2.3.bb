@@ -1,7 +1,7 @@
 # Released under the MIT license (see COPYING.MIT for the terms)
 DESCRIPTION = "PCB back-end implementation for bus agnostic API."
 HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/modules/amxb_backends/amxb_pcb"
-LICENSE = "MIT"
+LICENSE = "BSD-plus-patent"
 SECTION = "base"
 DEPENDS = "libamxc libamxb libamxd libpcb"
 

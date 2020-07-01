@@ -1,7 +1,7 @@
 # Released under the MIT license (see COPYING.MIT for the terms)
 DESCRIPTION = "Libamxc is a library containing data containers, implemented in ansi C (C99)."
 HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/libraries/libamxc/"
-LICENSE = "MIT"
+LICENSE = "BSD-plus-patent"
 SECTION = "lib"
 DEPENDS = ""
 

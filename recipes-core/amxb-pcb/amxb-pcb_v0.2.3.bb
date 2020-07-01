@@ -5,7 +5,7 @@ LICENSE = "BSD-plus-patent"
 SECTION = "base"
 DEPENDS = "libamxc libamxb libamxd libpcb"
 
-LIC_FILES_CHKSUM = "file://LICENSE;beginline=1;endline=21;md5=12ee6b8140ae9965800c9c380e2c9073"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=b144ccd4a02477481c61bc89602d4400"
 
 SRCREV = "v0.2.3"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/modules/amxb_backends/amxb_pcb.git;protocol=https;nobranch=1;"

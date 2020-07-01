@@ -1,5 +1,5 @@
 DESCRIPTION = "C utility functions for OpenWrt"
-HOMEPAGE = "https://${GIT_BASE_URL}/peter.deherdt/libubox"
+HOMEPAGE = "https://git.openwrt.org/project.libubox.git"
 
 PACKAGECONFIG ??= "lua examples"
 
@@ -29,10 +29,11 @@ SECTION = "lib"
 DEPENDS += "json-c"
 
 SRC_URI = "\
-          git://${GIT_BASE_URL}/peter.deherdt/libubox.git;branch=dev_sah;protocol=https;nobranch=1; \
+          git://git.openwrt.org/project/libubox.git;protocol=https;nobranch=1; \
+          file://0001-lua5.3-support.patch \
           "
 
-SRCREV = "83e3fec35a31737bbeb542d9ece5adc9a3ce8efb"
+SRCREV = "7da66430de3fc235bfc6ebb0b85fb90ea246138d"
 
 ABI_VERSION = "20191228"
 

@@ -5,7 +5,7 @@ LICENSE = "BSD-plus-patent"
 SECTION = "lib"
 DEPENDS = "libamxc libamxp libamxd bison-native"
 
-LIC_FILES_CHKSUM = "file://LICENSE;beginline=1;endline=21;md5=95e8fbfc71f3d0c82aee71089b47a04c"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=b144ccd4a02477481c61bc89602d4400"
 
 SRCREV = "v0.0.11"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/libraries/libamxo.git;protocol=https;nobranch=1;"

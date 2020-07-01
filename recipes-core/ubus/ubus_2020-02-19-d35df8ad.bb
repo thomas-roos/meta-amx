@@ -1,14 +1,17 @@
 DESCRIPTION = "OpenWrt system message/RPC bus"
-HOMEPAGE = "https://${GIT_BASE_URL}/peter.deherdt/ubus"
+HOMEPAGE = "https://git.openwrt.org/project/ubus.git"
 
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://ubusd.c;beginline=1;endline=12;md5=1b6a7aecd35bdd25de35da967668485d"
 SECTION = "base"
 DEPENDS = "json-c libubox"
 
-SRC_URI = "git://${GIT_BASE_URL}/peter.deherdt/ubus.git;branch=dev_sah;protocol=https;nobranch=1;"
+SRC_URI = "\
+          git://git.openwrt.org/project/ubus.git;protocol=https;nobranch=1; \
+          file://0001-lua5.3-support.patch \
+          "
 
-SRCREV = "829e22df7e87d8505154e1d1fdba1cc2246ccf03"
+SRCREV = "d35df8adda873dc75d876f72b78e84db8cfa72ee"
 
 ABI_VERSION = "20191227"
 

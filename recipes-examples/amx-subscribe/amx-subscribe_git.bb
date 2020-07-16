@@ -4,7 +4,7 @@ LICENSE = "CLOSED"
 SECTION = "examples"
 DEPENDS = "libamxc libamxb libamxd libevent"
 
-SRCREV = "33321ebc389c9a99a728d51a80bfd1925c1fd80a"
+SRCREV = "7bc9b4267516d8daa0d589bd4a01e03340f454b2"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/examples/baapi/subscribe.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 

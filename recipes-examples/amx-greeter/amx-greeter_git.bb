@@ -4,7 +4,7 @@ LICENSE = "CLOSED"
 SECTION = "examples"
 DEPENDS = "libamxc libamxp libamxb libamxd libevent"
 
-SRCREV = "bf32c7eb67713043771fa1d7961fabac57bed049"
+SRCREV = "15b4c24c2159eabd50e6ac7d3c50ae83c1c04946"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/examples/baapi/amx_greeter.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 

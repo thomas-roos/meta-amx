@@ -6,7 +6,7 @@ DEPENDS = "libamxb libamxd"
 
 LIC_FILES_CHKSUM = "file://LICENSE;md5=b144ccd4a02477481c61bc89602d4400"
 
-SRCREV = "v0.0.5"
+SRCREV = "v0.0.6"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/applications/amxb-inspect.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 

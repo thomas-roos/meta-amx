@@ -4,10 +4,16 @@ LICENSE = "CLOSED"
 SECTION = "examples"
 DEPENDS = "libamxc libamxb libamxd libevent"
 
-SRCREV = "7bc9b4267516d8daa0d589bd4a01e03340f454b2"
+SRCREV = "${PV}"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/examples/baapi/subscribe.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 
+EXTRA_OEMAKE = "DEST=${D} INSTALL_BIN_DIR=/bin VERSION_PREFIX="
+
 do_install() {
-    install -D -m 0755 ${B}/subscribe ${D}/bin/amx_subscribe
+        oe_runmake install
+}
+
+do_install() {
+    oe_runmake install
 }

@@ -6,9 +6,11 @@ DEPENDS = "libamxb libamxd"
 
 LIC_FILES_CHKSUM = "file://LICENSE;md5=b144ccd4a02477481c61bc89602d4400"
 
-SRCREV = "v0.0.6"
+SRCREV = "${PV}"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/applications/amxb-inspect.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
+
+EXTRA_OEMAKE += "VERSION_PREFIX="
 
 do_install() {
     install -D -m 0755 ${B}/amxb-inspect ${D}/bin/amxb-inspect

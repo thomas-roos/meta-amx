@@ -7,13 +7,13 @@ DEPENDS = "libamxc libamxp libamxd uriparser"
 
 LIC_FILES_CHKSUM = "file://LICENSE;md5=b144ccd4a02477481c61bc89602d4400"
 
-SRCREV = "v1.3.1"
+SRCREV = "${PV}"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/libraries/libamxb.git;protocol=https;nobranch=1; \
            file://0001-use-regular-getenv-instead-of-secure_getenv.patch \
            "
 S = "${WORKDIR}/git"
 
-EXTRA_OEMAKE = "DEST=${D} INSTALL_LIB_DIR=lib"
+EXTRA_OEMAKE = "DEST=${D} INSTALL_LIB_DIR=lib VERSION_PREFIX="
 
 do_install() {
         oe_runmake install

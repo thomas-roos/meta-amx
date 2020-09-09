@@ -24,9 +24,11 @@ RDEPENDS_${PN} = " \
     amx-invoke-wait \
     amx-subscribe \
     amx-greeter \
+    amx-greeter-app \
     amx-greeter-using-odl-ftab \
     amx-greeter-using-odl-import \
     amx-greeter-using-odl-import-pcb-style \
+    amx-tr181-localagent-threshold \
     libubox-lua \
     libubus-lua \
     libubus-examples \

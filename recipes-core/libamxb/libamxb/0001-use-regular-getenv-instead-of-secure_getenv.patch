@@ -1,6 +1,6 @@
-From c10154723263bed71a7c96172701593775777942 Mon Sep 17 00:00:00 2001
+From 882732ac8bec48fec75bff941eb61a9668dee14d Mon Sep 17 00:00:00 2001
 From: sahnalys11 <vincent.vangestel_ext@softathome.com>
-Date: Wed, 1 Apr 2020 10:31:07 +0200
+Date: Wed, 7 Oct 2020 10:31:07 +0200
 Subject: [PATCH] use regular getenv instead of secure_getenv
 
 ---
@@ -8,15 +8,15 @@ Subject: [PATCH] use regular getenv instead of secure_getenv
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/src/amxb_backend_mngr.c b/src/amxb_backend_mngr.c
-index 9d25d17..4246877 100644
+index 8debeb8..ba87a08 100644
 --- a/src/amxb_backend_mngr.c
 +++ b/src/amxb_backend_mngr.c
-@@ -58,7 +58,7 @@ static amxb_version_t lib_version = {
+@@ -90,7 +90,7 @@ static amxb_version_t lib_version = {
  
- static int amxb_close_backend(AMXB_UNUSED amxb_be_funcs_t *fns) {
-     void *handle = fns->handle;
--    char *no_dlclose = secure_getenv("AMXB_NO_DLCLOSE");
-+    char *no_dlclose = getenv("AMXB_NO_DLCLOSE");
+ static int amxb_close_backend(AMXB_UNUSED amxb_be_funcs_t* fns) {
+     void* handle = fns->handle;
+-    char* no_dlclose = secure_getenv("AMXB_NO_DLCLOSE");
++    char* no_dlclose = getenv("AMXB_NO_DLCLOSE");
      int retval = 0;
  
      fns->handle = NULL;

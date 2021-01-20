@@ -10,7 +10,7 @@ SRCREV = "${PV}"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/applications/amxrt.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 
-EXTRA_OEMAKE = "DEST=${D} INSTALL_BIN_DIR=bin VERSION_PREFIX="
+EXTRA_OEMAKE = "DEST=${D} VERSION_PREFIX="
 
 do_install() {
         oe_runmake install

@@ -10,8 +10,8 @@ SRCREV = "${PV}"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/applications/amxb-inspect.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 
-EXTRA_OEMAKE += "VERSION_PREFIX="
+EXTRA_OEMAKE += "DEST=${D} VERSION_PREFIX="
 
 do_install() {
-    install -D -m 0755 ${B}/amxb-inspect ${D}/bin/amxb-inspect
+    oe_runmake install
 }

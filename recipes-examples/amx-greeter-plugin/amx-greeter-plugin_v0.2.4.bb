@@ -19,4 +19,5 @@ do_install() {
 
 FILES_${PN} += "${bindir}/greeter"
 FILES_${PN} += "/etc/amx/greeter/*.odl"
-FILES_${PN} += "/usr/lib/amx/greeter/*.so"
+FILES_${PN} += "/usr/lib/amx/greeter/*${SOLIBS}"
+FILES_${PN}-dev += "/usr/lib/amx/greeter/*${SOLIBSDEV}"

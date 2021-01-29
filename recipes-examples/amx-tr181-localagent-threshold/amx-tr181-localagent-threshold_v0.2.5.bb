@@ -14,4 +14,5 @@ do_install() {
         oe_runmake install
 }
 
-FILES_${PN} += "/usr/lib/amx/la_threshold/la_threshold.so"
+FILES_${PN} += "/usr/lib/amx/la_threshold/*${SOLIBS}"
+FILES_${PN}-dev += "/usr/lib/amx/la_threshold/*${SOLIBSDEV}"

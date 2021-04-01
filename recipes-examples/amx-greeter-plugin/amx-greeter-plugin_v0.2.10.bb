@@ -6,12 +6,18 @@ DEPENDS = "libamxc libamxp libamxd libamxo libevent"
 
 LIC_FILES_CHKSUM = "file://LICENSE.BSD;md5=125e02a02b68754758e33699fe6cd6bf"
 
+SOLIBS = ".so"
+SOLIBSDEV = ".so.*"
+
 SRCREV = "${PV}"
 SRC_URI = "git://${GIT_BASE_URL}/ambiorix/examples/datamodel/greeter_plugin.git;protocol=https;nobranch=1;"
 S = "${WORKDIR}/git"
 
 EXTRA_OEMAKE = "DEST=${D} VERSION_PREFIX="
 
+RDEPENDS_${PN} = "\
+                 amxrt \
+                 "
 
 do_install() {
     oe_runmake install

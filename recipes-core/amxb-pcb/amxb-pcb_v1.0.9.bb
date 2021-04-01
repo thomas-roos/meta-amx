@@ -16,5 +16,3 @@ EXTRA_OEMAKE = "DEST=${D} VERSION_PREFIX="
 do_install() {
         oe_runmake install
 }
-
-FILES_${PN}-dev += "${bindir}/mods/amxb/mod-amxb-pcb.so"

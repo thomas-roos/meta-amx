@@ -4,7 +4,6 @@ HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/libraries/libamxp/"
 LICENSE = "BSD-2-Clause-Patent"
 SECTION = "lib"
 DEPENDS = "libamxc bison-native"
-DEPENDS_class-native = "libamxc-native bison-native"
 
 LIC_FILES_CHKSUM = "file://LICENSE.BSD;md5=125e02a02b68754758e33699fe6cd6bf"
 

@@ -6,6 +6,8 @@ SECTION = "base"
 DEPENDS = "libamxc libamxb libamxd libpcb"
 DEPENDS_class-native = "libamxc-native libamxb-native libamxd-native libpcb-native"
 
+inherit sah_base pkgconfig
+
 LIC_FILES_CHKSUM = "file://LICENSE.BSD;md5=125e02a02b68754758e33699fe6cd6bf"
 
 SRCREV = "${PV}"

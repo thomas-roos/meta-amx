@@ -2,8 +2,8 @@ DESCRIPTION = "Object Definition Language Compiler/Generator"
 HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/applications/amxo-cg"
 LICENSE = "BSD-2-Clause-Patent"
 SECTION = "tools"
-DEPENDS = "libamxc libamxd libamxo libxml2"
-DEPENDS_class-native = "libamxb-native libamxd-native libamxo-native"
+DEPENDS = "libamxb libamxd libamxo libxml2"
+DEPENDS_class-native = "libamxb libamxd libamxo libxml2"
 
 inherit pkgconfig config-amx 
 

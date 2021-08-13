@@ -11,7 +11,8 @@ PROVIDES = "${PACKAGES}"
 
 RDEPENDS_${PN} = " \
     amxb-inspect \
-    amxb-ubus \
+    mod-amxb-ubus \
+    mod-amxb-pcb \
     amxrt \
     amxo-cg \
     amx-subscribe \

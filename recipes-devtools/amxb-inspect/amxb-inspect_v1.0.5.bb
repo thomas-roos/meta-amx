@@ -1,20 +1,24 @@
-DESCRIPTION = "Bus Agnostic back-ends are shared objects that implements the bus specific functionality. As these are loaded dynamically from within an application, we must be sure that they are valid. This tool verifies that a shared object is a valid and usable amxb back-end."
-HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/examples/baapi/subscribe"
-LICENSE = "BSD-2-Clause-Patent"
-SECTION = "tools"
-DEPENDS = "libamxb libamxd"
-DEPENDS_class-native = "libamxb-native libamxd-native"
 
-LIC_FILES_CHKSUM = "file://LICENSE.BSD;md5=125e02a02b68754758e33699fe6cd6bf"
 
-SRCREV = "${PV}"
-SRC_URI = "git://${GIT_BASE_URL}/ambiorix/applications/amxb-inspect.git;protocol=https;nobranch=1;"
+SRC_URI = "git://gitlab.com/soft.at.home/ambiorix/applications/amxb-inspect.git;protocol=https;nobranch=1"
+SRCREV = "v1.0.5"
 S = "${WORKDIR}/git"
+inherit pkgconfig config-amx
 
-EXTRA_OEMAKE = "DEST=${D} PREFIX=${prefix} LIBDIR=${libdir} BINDIR=${bindir} INCLUDEDIR=${includedir} VERSION_PREFIX="
+SUMMARY = "Ambiorix Backend inspector/validation tool"
+LICENSE += "SAH & BSD-2-Clause-Patent"
 
-do_install() {
-    oe_runmake install
-}
+LIC_FILES_CHKSUM = " \
+                    file://LICENSE.SAH;md5=a0f6bf5b78959aa070b853b0ad21d9a2 \
+                    file://LICENSE.BSD;md5=6bb6609ec7c25caf8b7b0eb6ed4480cf \
+                    "
 
-BBCLASSEXTEND += "native"
+COMPONENT = "amxb-inspect"
+
+DEPENDS += "libamxb"
+
+RDEPENDS_${PN} += "libamxb"
+
+FILES_${PN} += "${BINDIR}/${COMPONENT}"
+
+EXTRA_OEMAKE += "DEST=${D} PREFIX=${prefix} LIBDIR=${libdir} BINDIR=${bindir} INCLUDEDIR=${includedir}"

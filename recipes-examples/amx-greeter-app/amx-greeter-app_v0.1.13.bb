@@ -1,20 +1,39 @@
-DESCRIPTION = "Simple standalone example greeter application build using the amx APIs"
-HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/examples/datamodel/greeter_app"
-LICENSE = "BSD-2-Clause-Patent"
-SECTION = "examples"
-DEPENDS = "libamxc libamxp libamxd libamxo libamxb libevent"
 
-LIC_FILES_CHKSUM = "file://LICENSE.BSD;md5=125e02a02b68754758e33699fe6cd6bf"
 
-SRCREV = "${PV}"
-SRC_URI = "git://${GIT_BASE_URL}/ambiorix/examples/datamodel/greeter_app.git;protocol=https;nobranch=1;"
+SRC_URI = "git://gitlab.com/soft.at.home/ambiorix/examples/datamodel/greeter_app.git;protocol=https;nobranch=1"
+SRCREV = "v0.1.13"
 S = "${WORKDIR}/git"
+inherit pkgconfig config-amx
 
-EXTRA_OEMAKE = "DEST=${D} VERSION_PREFIX="
+SUMMARY = "Simple standalone example greeter application build using the amx APIs"
+LICENSE += "SAH & BSD-2-Clause-Patent"
 
-do_install() {
-    oe_runmake install
-}
+LIC_FILES_CHKSUM = " \
+                    file://LICENSE.SAH;md5=a0f6bf5b78959aa070b853b0ad21d9a2 \
+                    file://LICENSE.BSD;md5=6bb6609ec7c25caf8b7b0eb6ed4480cf \
+                    "
 
-FILES_${PN} += "${bindir}/greeter"
-FILES_${PN} += "/etc/amx/greeter/*.odl"
+COMPONENT = "amx-greeter-app"
+
+DEPENDS += "libamxc"
+DEPENDS += "libamxp"
+DEPENDS += "libamxd"
+DEPENDS += "libamxo"
+DEPENDS += "libamxb"
+DEPENDS += "libevent"
+
+RDEPENDS_${PN} += "libamxc"
+RDEPENDS_${PN} += "libamxp"
+RDEPENDS_${PN} += "libamxd"
+RDEPENDS_${PN} += "libamxo"
+RDEPENDS_${PN} += "libamxb"
+RDEPENDS_${PN} += "libevent"
+
+FILES_${PN} += "/etc/amx/greeter/greeter_defaults.odl"
+FILES_${PN} += "/etc/amx/greeter/greeter_definition.odl"
+FILES_${PN} += "/etc/amx/greeter/greeter_extra.odl"
+FILES_${PN} += "/etc/amx/greeter/greeter.odl"
+FILES_${PN} += "${BINDIR}/greeter.odl"
+FILES_${PN} += "${BINDIR}/greeter"
+
+EXTRA_OEMAKE += "DEST=${D} PREFIX=${prefix} LIBDIR=${libdir} BINDIR=${bindir} INCLUDEDIR=${includedir}"

@@ -1,27 +1,37 @@
-DESCRIPTION = "xample implementation of USP Device:2.13 LocalAgent.Threshold"
-HOMEPAGE = "https://${GIT_BASE_URL}/ambiorix/examples/datamodel/localagent_threshold"
-LICENSE = "BSD-2-Clause-Patent"
-SECTION = "examples"
-DEPENDS = "libamxc libamxj libamxb libamxd libamxo libevent"
 
-SOLIBS = ".so"
-SOLIBSDEV = ".so.*"
 
-LIC_FILES_CHKSUM = "file://LICENSE.BSD;md5=125e02a02b68754758e33699fe6cd6bf"
-
-SRCREV = "${PV}"
-SRC_URI = "git://${GIT_BASE_URL}/ambiorix/examples/datamodel/localagent_threshold.git;protocol=https;nobranch=1;"
+SRC_URI = "git://gitlab.com/soft.at.home/ambiorix/examples/datamodel/localagent_threshold.git;protocol=https;nobranch=1"
+SRCREV = "v0.2.14"
 S = "${WORKDIR}/git"
+inherit pkgconfig config-amx
 
-EXTRA_OEMAKE = "DEST=${D} VERSION_PREFIX="
+SUMMARY = "Example of an implementation of USP Device:2.13 LocalAgent.Threshold."
+LICENSE += "SAH & BSD-2-Clause-Patent"
 
-do_install() {
-        oe_runmake install
-}
+LIC_FILES_CHKSUM = " \
+                    file://LICENSE.SAH;md5=a0f6bf5b78959aa070b853b0ad21d9a2 \
+                    file://LICENSE.BSD;md5=6bb6609ec7c25caf8b7b0eb6ed4480cf \
+                    "
 
-RDEPENDS_${PN} = " \
-                 amxrt \
-                 "
+COMPONENT = "amx-tr181-localagent-threshold"
 
-FILES_${PN} += "/usr/lib/amx/la_threshold/*${SOLIBS}"
-FILES_${PN}-dev += "/usr/lib/amx/la_threshold/*${SOLIBSDEV}"
+DEPENDS += "libamxc"
+DEPENDS += "libamxb"
+DEPENDS += "libamxd"
+DEPENDS += "libamxo"
+DEPENDS += "libevent"
+
+RDEPENDS_${PN} += "libamxc"
+RDEPENDS_${PN} += "libamxb"
+RDEPENDS_${PN} += "libamxd"
+RDEPENDS_${PN} += "libamxo"
+RDEPENDS_${PN} += "libevent"
+
+FILES_${PN} += "/etc/amx/la_threshold/la_threshold_defaults.odl"
+FILES_${PN} += "/etc/amx/la_threshold/la_threshold_definition.odl"
+FILES_${PN} += "/etc/amx/la_threshold/la_threshold.odl"
+FILES_${PN} += "${BINDIR}/la_threshold.odl"
+FILES_${PN} += "/usr/lib/amx/la_threshold/la_threshold.so"
+FILES_${PN} += "${BINDIR}/la_threshold"
+
+EXTRA_OEMAKE += "DEST=${D} PREFIX=${prefix} LIBDIR=${libdir} BINDIR=${bindir} INCLUDEDIR=${includedir}"

@@ -10,7 +10,7 @@ LICENSE += "SAH & BSD-2-Clause-Patent"
 
 LIC_FILES_CHKSUM = " \
                     file://LICENSE.SAH;md5=a0f6bf5b78959aa070b853b0ad21d9a2 \
-                    file://LICENSE.BSD;md5=6bb6609ec7c25caf8b7b0eb6ed4480cf \
+                    file://LICENSE.BSD;md5=125e02a02b68754758e33699fe6cd6bf \
                     "
 
 COMPONENT = "amx-subscribe"
@@ -28,5 +28,3 @@ RDEPENDS_${PN} += "libamxb"
 RDEPENDS_${PN} += "libevent"
 
 FILES_${PN} += "${BINDIR}/${COMPONENT}"
-
-EXTRA_OEMAKE += "DEST=${D} PREFIX=${prefix} LIBDIR=${libdir} BINDIR=${bindir} INCLUDEDIR=${includedir}"

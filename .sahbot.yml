@@ -1,0 +1,5 @@
+
+components:
+  default:
+    auto_merge: true
+    auto_label: true

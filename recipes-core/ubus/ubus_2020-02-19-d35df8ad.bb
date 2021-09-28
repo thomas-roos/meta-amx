@@ -17,7 +17,7 @@ ABI_VERSION = "20191227"
 
 S = "${WORKDIR}/git"
 
-inherit cmake pkgconfig openwrt-lua openwrt-virtual-runtimes
+inherit cmake openwrt-lua openwrt-virtual-runtimes pkgconfig
 
 EXTRA_OECMAKE += "\
                 -DCMAKE_INSTALL_LIBDIR:PATH=/lib \

@@ -7,10 +7,7 @@ inherit pkgconfig config-amx
 
 SUMMARY = "Example of an implementation of USP Device:2.13 LocalAgent.Threshold."
 LICENSE += "SAH & BSD-2-Clause-Patent"
-
-LIC_FILES_CHKSUM = " \
-                    file://LICENSE;md5=6bb6609ec7c25caf8b7b0eb6ed4480cf \
-          "
+LIC_FILES_CHKSUM += "file://LICENSE;md5=6bb6609ec7c25caf8b7b0eb6ed4480cf"
 
 COMPONENT = "amx-tr181-localagent-threshold"
 

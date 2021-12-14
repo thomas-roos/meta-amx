@@ -22,4 +22,7 @@ RDEPENDS_${PN} = " \
     amx-variant-contacts \
     amx-llist-contacts \
     amx-htable-contacts \
+    amx-fcgi \
+    amx-cli \
+    amxo-xml-to \
     "

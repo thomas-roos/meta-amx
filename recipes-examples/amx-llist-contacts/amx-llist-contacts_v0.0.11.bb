@@ -13,6 +13,6 @@ COMPONENT = "amx-llist-contacts"
 
 DEPENDS += "libamxc"
 
-RDEPENDS_${PN} += "libamxc"
+RDEPENDS:${PN} += "libamxc"
 
-FILES_${PN} += "${BINDIR}/${COMPONENT}"
+FILES:${PN} += "${BINDIR}/${COMPONENT}"

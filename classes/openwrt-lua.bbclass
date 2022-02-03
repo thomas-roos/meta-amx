@@ -6,14 +6,14 @@
 OECMAKE_C_FLAGS += "-DLUA_COMPAT_5_3"
 EXTRA_OECMAKE += "-DLUAPATH=${libdir}/lua/5.3"
 
-FILES_${PN}  += "${datadir}/lua/"
-FILES_${PN}-dbg  += "${libdir}/lua/.debug"
+FILES:${PN}  += "${datadir}/lua/"
+FILES:${PN}-dbg  += "${libdir}/lua/.debug"
 
 DEPENDS += "lua"
 OECMAKE_C_FLAGS += "-I${STAGING_INCDIR}/lua5.3"
 CFLAGS += "-I${STAGING_INCDIR}/lua5.3"
 
-do_configure_prepend () {
+do_configure:prepend () {
     if [ -e "${S}/CMakeLists.txt" ] ; then
         sed -i -e \
 	"s:ARCHIVE DESTINATION lib:ARCHIVE DESTINATION \${CMAKE_INSTALL_LIBDIR}:g" \

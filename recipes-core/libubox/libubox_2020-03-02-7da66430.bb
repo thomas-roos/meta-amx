@@ -8,9 +8,9 @@ PACKAGECONFIG[examples] = ""
 
 LICENSE = "BSD-1-Clause&BSD-3-Clause"
 LICENSE += "${@bb.utils.contains('PACKAGECONFIG', 'examples', '&GPL-2.0', '', d)}"
-LICENSE_${PN} = "BSD-1-Clause&BSD-3-Clause"
-LICENSE_${PN}-lua = "BSD-1-Clause&BSD-3-Clause"
-LICENSE_${PN}-examples = "GPL-2.0&BSD-1-Clause&BSD-3-Clause"
+LICENSE:${PN} = "BSD-1-Clause&BSD-3-Clause"
+LICENSE:${PN}-lua = "BSD-1-Clause&BSD-3-Clause"
+LICENSE:${PN}-examples = "GPL-2.0&BSD-1-Clause&BSD-3-Clause"
 
 LIC_FILES_CHKSUM = "\
                    file://avl.c;endline=39;md5=00810155fed3d604816ec5814523d60a \
@@ -48,7 +48,7 @@ EXTRA_OECMAKE += "\
                 -DCMAKE_INSTALL_LIBDIR:PATH=/lib \
                 "
 
-do_install_append() {
+do_install:append() {
     install -d ${D}${bindir} ${D}${includedir}/libubox
     if [ "${@bb.utils.contains('PACKAGECONFIG', 'examples', 'ON', 'OFF', d)}" = "ON" ]; then
         install -m 0755 ${B}/examples/*-example ${D}${bindir}
@@ -73,12 +73,12 @@ PACKAGES =+ "\
             ${@bb.utils.contains('PACKAGECONFIG', 'lua', '${PN}-lua', '', d)} \
             "
 
-FILES_${PN}${ABI_VERSION} = "/lib/libubox.so"
-FILES_jshn = "${datadir}/* ${bindir}/jshn"
-FILES_libblobmsg-json = "/lib/libblobmsg_json.so"
-FILES_libjson-script = "/lib/libjson_script.so"
-FILES_${PN}-lua += "${libdir}/lua/5.3/*"
-FILES_${PN}-examples += "${bindir}/*-example \
+FILES:${PN}${ABI_VERSION} = "/lib/libubox.so"
+FILES:jshn = "${datadir}/* ${bindir}/jshn"
+FILES:libblobmsg-json = "/lib/libblobmsg_json.so"
+FILES:libjson-script = "/lib/libjson_script.so"
+FILES:${PN}-lua += "${libdir}/lua/5.3/*"
+FILES:${PN}-examples += "${bindir}/*-example \
                         ${bindir}/uloop-example.lua \
                         ${bindir}/uloop_pid_test.sh \
                         "

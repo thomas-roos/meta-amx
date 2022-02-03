@@ -23,7 +23,7 @@ EXTRA_OECMAKE += "\
                 -DCMAKE_INSTALL_LIBDIR:PATH=/lib \
                 "
 
-do_install_append () {
+do_install:append () {
     install -dm 0755 ${D}/sbin
     ln -s /usr/sbin/ubusd ${D}/sbin/ubusd
 
@@ -41,7 +41,7 @@ PACKAGES =+ "\
             "
 
 FILES_SOLIBSDEV = ""
-FILES_lib${PN}${ABI_VERSION} += "/lib/libubus.so"
-FILES_lib${PN}-lua += "${libdir}/lua/5.3/*"
-FILES_lib${PN}-examples += "${bindir}/*.lua"
-FILES_${PN}d += "${sbindir} ${base_sbindir}"
+FILES:lib${PN}${ABI_VERSION} += "/lib/libubus.so"
+FILES:lib${PN}-lua += "${libdir}/lua/5.3/*"
+FILES:lib${PN}-examples += "${bindir}/*.lua"
+FILES:${PN}d += "${sbindir} ${base_sbindir}"

@@ -14,6 +14,6 @@ COMPONENT = "amxb-inspect"
 
 DEPENDS += "libamxb"
 
-RDEPENDS_${PN} += "libamxb"
+RDEPENDS:${PN} += "libamxb"
 
-FILES_${PN} += "${BINDIR}/${COMPONENT}"
+FILES:${PN} += "${BINDIR}/${COMPONENT}"

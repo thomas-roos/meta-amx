@@ -9,7 +9,7 @@ inherit packagegroup
 PACKAGES = "${PN}"
 PROVIDES = "${PACKAGES}"
 
-RDEPENDS_${PN} = " \
+RDEPENDS:${PN} = " \
     amxb-inspect \
     mod-amxb-ubus \
     mod-amxb-pcb \

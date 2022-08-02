@@ -8,6 +8,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v0.1.0 - 2022-08-02(09:41:04 +0000)
+
+### New
+
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): Component added
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): Component added
+- [amx-greeter-app](https://gitlab.com/prpl-foundation/components/ambiorix/examples/datamodel/greeter_app): Component added
+- [amx-greeter-plugin](https://gitlab.com/prpl-foundation/components/ambiorix/examples/datamodel/greeter_plugin): Component added
+- [amx-htable-contacts](https://gitlab.com/prpl-foundation/components/ambiorix/examples/collections/htable_contacts): Component added
+- [amx-llist-contacts](https://gitlab.com/prpl-foundation/components/ambiorix/examples/collections/llist_contacts): Component added
+- [amx-subscribe](https://gitlab.com/prpl-foundation/components/ambiorix/examples/baapi/subscribe): Component added
+- [amx-tr181-localagent-threshold](https://gitlab.com/prpl-foundation/components/ambiorix/examples/datamodel/localagent_threshold): Component added
+- [amx-variant-contacts](https://gitlab.com/prpl-foundation/components/ambiorix/examples/collections/variant_contacts): Component added
+- [amxb-inspect](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxb-inspect): Component added
+- [amxo-cg](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg): Component added
+- [amxo-xml-to](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-xml-to): Component added
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Component added
+- [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): Component added
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Component added
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Component added
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Component added
+- [libamxj](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxj): Component added
+- [libamxm](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxm): Component added
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Component added
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Component added
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): Component added
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Component added
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Component added
+
 ## Release v1.15.0 - 2021-12-14(16:15:31 +0000)
 
 ### New

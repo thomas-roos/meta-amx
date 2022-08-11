@@ -1,7 +1,7 @@
 
 
 SRC_URI = "git://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb.git;protocol=https;nobranch=1"
-SRCREV = "v3.0.6"
+SRCREV = "v3.0.3"
 S = "${WORKDIR}/git"
 inherit pkgconfig config-amx
 
@@ -18,15 +18,6 @@ DEPENDS += "libamxd"
 DEPENDS += "libamxb"
 DEPENDS += "libpcb"
 
-<<<<<<< HEAD
-RDEPENDS:${PN} += "libamxc"
-RDEPENDS:${PN} += "libamxp"
-RDEPENDS:${PN} += "libamxd"
-RDEPENDS:${PN} += "libamxb"
-RDEPENDS:${PN} += "libpcb"
-
-FILES:${PN} += "${BINDIR}/mods/amxb/${COMPONENT}.so"
-=======
 RDEPENDS_${PN} += "libamxc"
 RDEPENDS_${PN} += "libamxp"
 RDEPENDS_${PN} += "libamxd"
@@ -34,4 +25,3 @@ RDEPENDS_${PN} += "libamxb"
 RDEPENDS_${PN} += "libpcb"
 
 FILES_${PN} += "${BINDIR}/mods/amxb/${COMPONENT}.so"
->>>>>>> origin/dev_mod-amxb-pcb_upstep

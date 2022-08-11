@@ -14,7 +14,7 @@ COMPONENT = "libamxc"
 
 
 
-FILES_${PN}-dev += "${INCLUDEDIR}/amxc/*.h"
-FILES_${PN}-staticdev += "${LIBDIR}/${COMPONENT}.a"
-FILES_${PN} += "${LIBDIR}/${COMPONENT}${SOLIBS}"
-FILES_${PN}-dev += "${LIBDIR}/${COMPONENT}${SOLIBSDEV}"
+FILES:${PN}-dev += "${INCLUDEDIR}/amxc/*.h"
+FILES:${PN}-staticdev += "${LIBDIR}/${COMPONENT}.a"
+FILES:${PN} += "${LIBDIR}/${COMPONENT}${SOLIBS}"
+FILES:${PN}-dev += "${LIBDIR}/${COMPONENT}${SOLIBSDEV}"

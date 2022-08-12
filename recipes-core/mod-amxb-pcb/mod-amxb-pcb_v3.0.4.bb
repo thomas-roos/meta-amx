@@ -18,7 +18,6 @@ DEPENDS += "libamxd"
 DEPENDS += "libamxb"
 DEPENDS += "libpcb"
 
-<<<<<<< HEAD
 RDEPENDS:${PN} += "libamxc"
 RDEPENDS:${PN} += "libamxp"
 RDEPENDS:${PN} += "libamxd"
@@ -26,12 +25,3 @@ RDEPENDS:${PN} += "libamxb"
 RDEPENDS:${PN} += "libpcb"
 
 FILES:${PN} += "${BINDIR}/mods/amxb/${COMPONENT}.so"
-=======
-RDEPENDS:${PN} += "libamxc"
-RDEPENDS:${PN} += "libamxp"
-RDEPENDS:${PN} += "libamxd"
-RDEPENDS:${PN} += "libamxb"
-RDEPENDS:${PN} += "libpcb"
-
-FILES:${PN} += "${BINDIR}/mods/amxb/${COMPONENT}.so"
->>>>>>> origin/dev_mod-amxb-pcb_upstep

@@ -15,18 +15,9 @@ COMPONENT = "libamxj"
 DEPENDS += "libamxc"
 DEPENDS += "yajl"
 
-<<<<<<< HEAD
 RDEPENDS:${PN} += "libamxc"
 RDEPENDS:${PN} += "yajl"
 
 FILES:${PN}-dev += "${INCLUDEDIR}/amxj/*.h"
 FILES:${PN} += "${LIBDIR}/${COMPONENT}${SOLIBS}"
 FILES:${PN}-dev += "${LIBDIR}/${COMPONENT}${SOLIBSDEV}"
-=======
-RDEPENDS:${PN} += "libamxc"
-RDEPENDS:${PN} += "yajl"
-
-FILES:${PN}-dev += "${INCLUDEDIR}/amxj/*.h"
-FILES:${PN} += "${LIBDIR}/${COMPONENT}${SOLIBS}"
-FILES:${PN}-dev += "${LIBDIR}/${COMPONENT}${SOLIBSDEV}"
->>>>>>> origin/dev_mod-amxb-pcb_upstep

@@ -8,6 +8,44 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v2.0.0 - 2022-08-15(18:40:05 +0000)
+
+### Breaking
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Remove deprecated functions
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Add support for allow partial with set operator
+
+### New
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Implement amxb_get_multiple
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Implement amxb_set_multiple
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Add support for get_instances operator
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Add implementation of amxc_var_set_path and amxc_var_set_pathf
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Make it possible to initialize a timestamp structure using struct tm
+
+### Fixes
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Fixes test version cehcking
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Fixes version check test due to upstep of major version
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Constructor functions that add custom expression function must be run at level higher then 101
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Incorrect check for get_instances back-end function
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Reference following using key addressing fails
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Invoke of method with out arguments on local data model creates wrong result variant
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
+
+### Changes
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Adds lookup cache for amxb_who_has
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Use reference index when a reference path is provided
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [Ambiorix] Implementation of reference following decorator
+
+### Other
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Issue: ambiorix/libraries/libamxb#63 Doxygen documentation tags must be added to back-end interface stuct and function signatures
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Improve documentation
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Add when_failed_status macro
+
 ## Release gen_honister_v1.1.1 - 2022-08-15(18:34:06 +0000)
 
 ### Fixes

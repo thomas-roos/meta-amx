@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v2.1.2 - 2022-08-15(18:59:36 +0000)
+
+### Fixes
+
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): A quoted string must always be interpreted as a string
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): The command parser does not parse embedded string correctly
+
 ## Release gen_honister_v2.1.1 - 2022-08-15(18:57:58 +0000)
 
 ### Fixes

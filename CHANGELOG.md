@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v2.1.1 - 2022-08-15(18:57:58 +0000)
+
+### Fixes
+
+- [libamxm](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxm): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
+
 ## Release gen_honister_v2.1.0 - 2022-08-15(18:55:18 +0000)
 
 ### New

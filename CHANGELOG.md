@@ -8,6 +8,59 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v2.3.5 - 2022-08-17(08:15:25 +0000)
+
+### Changes
+
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): amxc_string_split_to_llist not splitting text with newline sperator.
+
+## Release gen_honister_v2.3.4 - 2022-08-16(11:46:57 +0000)
+
+### Fixes
+
+- [amx-tr181-localagent-threshold](https://gitlab.com/prpl-foundation/components/ambiorix/examples/datamodel/localagent_threshold): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
+
+## Release gen_honister_v2.3.3 - 2022-08-16(11:32:58 +0000)
+
+### Fixes
+
+- [amx-htable-contacts](https://gitlab.com/prpl-foundation/components/ambiorix/examples/collections/htable_contacts): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
+
+## Release gen_honister_v2.3.2 - 2022-08-16(11:29:05 +0000)
+
+### Other
+
+- [amxo-cg](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when...
+
+## Release gen_honister_v2.3.1 - 2022-08-16(11:24:28 +0000)
+
+### Fixes
+
+- [amx-subscribe](https://gitlab.com/prpl-foundation/components/ambiorix/examples/baapi/subscribe): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
+
+## Release gen_honister_v2.3.0 - 2022-08-16(11:20:48 +0000)
+
+### New
+
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Commandline options -o and -F must support configuration paths and json data
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): When there are required objects events can appear before the entry points are called
+
+### Fixes
+
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Adds yajl as dependency in baf
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Fixes regression
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Plug-in name is not correctly passed to pcb back-end
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Load order must be the same as save order
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): When amxrt is stopped while waiting for required objects the entrypoints should not be called with reason STOP
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Changes for hop-1509 causes regressions
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Plugins not starting at boot
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): amxrt fails to create folder
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Link amxrt with libyajl
+
+### Changes
+
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Plugins not starting at boot
+
 ## Release gen_honister_v2.2.0 - 2022-08-15(19:48:06 +0000)
 
 ### New

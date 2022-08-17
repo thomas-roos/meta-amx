@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v2.3.11 - 2022-08-17(10:19:39 +0000)
+
+### Fixes
+
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): It must be possible to extend composite config options
+
 ## Release gen_honister_v2.3.10 - 2022-08-17(09:55:07 +0000)
 
 ## Release gen_honister_v2.3.9 - 2022-08-17(09:49:44 +0000)

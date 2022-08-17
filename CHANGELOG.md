@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v2.3.9 - 2022-08-17(09:49:44 +0000)
+
+### Fixes
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): allow_partial is not set as an input argument for the set operation
+
 ## Release gen_honister_v2.3.8 - 2022-08-17(08:52:07 +0000)
 
 ## Release gen_honister_v2.3.7 - 2022-08-17(08:44:17 +0000)

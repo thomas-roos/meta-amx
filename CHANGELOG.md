@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v2.3.15 - 2022-08-18(13:03:20 +0000)
+
+### Changes
+
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): [GL-B1300] Various components failing to open Service in firewall due to high load and multiple interface toggling
+
 ## Release gen_honister_v2.3.14 - 2022-08-17(13:24:24 +0000)
 
 ## Release gen_honister_v2.3.13 - 2022-08-17(13:14:28 +0000)

@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v2.3.26 - 2022-08-24(12:24:29 +0000)
+
+### Fixes
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [USP] TransferComplete! event does not have a Device. prefix
+
 ## Release gen_honister_v2.3.25 - 2022-08-24(12:01:41 +0000)
 
 ## Release gen_honister_v2.3.24 - 2022-08-24(10:18:19 +0000)

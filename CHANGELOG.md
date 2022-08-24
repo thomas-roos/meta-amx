@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v2.3.24 - 2022-08-24(10:18:19 +0000)
+
+### Fixes
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Performing an amxb_async_call on a local deferred data model method doesn't return correctly
+
 ## Release gen_honister_v2.3.23 - 2022-08-24(10:02:01 +0000)
 
 ### Fixes

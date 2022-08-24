@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v2.3.22 - 2022-08-24(09:44:02 +0000)
+
+### Fixes
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [amx] custom param read handler called more often than expected
+
 ## Release gen_honister_v2.3.21 - 2022-08-18(17:03:50 +0000)
 
 ## Release gen_honister_v2.3.20 - 2022-08-18(16:47:42 +0000)

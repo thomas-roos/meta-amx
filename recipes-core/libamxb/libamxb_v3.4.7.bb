@@ -1,7 +1,6 @@
 
 
 SRC_URI = "git://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb.git;protocol=https;nobranch=1"
-SRCREV = "v3.4.7"
 S = "${WORKDIR}/git"
 inherit pkgconfig config-amx
 

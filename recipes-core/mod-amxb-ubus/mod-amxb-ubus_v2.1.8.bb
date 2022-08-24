@@ -1,7 +1,6 @@
 
 
 SRC_URI = "git://gitlab.com/soft.at.home/ambiorix/modules/amxb_backends/amxb_ubus.git;protocol=https;nobranch=1"
-SRCREV = "v2.1.8"
 S = "${WORKDIR}/git"
 inherit pkgconfig config-amx
 

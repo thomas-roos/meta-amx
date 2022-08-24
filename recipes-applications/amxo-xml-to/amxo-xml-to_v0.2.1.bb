@@ -1,7 +1,6 @@
 
 
 SRC_URI = "git://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-xml-to.git;protocol=https;nobranch=1"
-SRCREV = ""
 S = "${WORKDIR}/git"
 inherit pkgconfig config-amx
 

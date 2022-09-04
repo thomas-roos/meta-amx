@@ -1,5 +1,13 @@
-
 components:
   default:
-    auto_merge: true
-    auto_label: true
+    merge_strategy: "group_1"
+  libsahtrace:
+    merge_strategy: "individual"
+
+build:
+
+  whitelist:
+  - "meta-lcm-basic"
+
+  # linked:
+  # - layer: "meta-usp"

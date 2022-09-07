@@ -6,8 +6,8 @@ components:
 
 build:
 
-  whitelist:
-  - "meta-lcm-basic"
+  blacklist:
+  - "raspberrypi4-64"
 
   # linked:
   # - layer: "meta-usp"

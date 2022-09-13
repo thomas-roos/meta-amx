@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v2.6.3 - 2022-09-13(12:08:30 +0000)
+
+### Changes
+
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Set config variant before connecting to back-end
+
 ## Release gen_honister_v2.6.2 - 2022-09-13(12:06:43 +0000)
 
 ### Fixes

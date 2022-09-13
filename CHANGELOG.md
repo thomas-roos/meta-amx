@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v2.4.5 - 2022-09-13(11:40:29 +0000)
+
+### Fixes
+
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): amx gmap-client modules do not wait for "requires"
+
 ## Release gen_honister_v2.4.4 - 2022-09-13(11:32:28 +0000)
 
 ## Release gen_honister_v2.4.3 - 2022-09-13(10:37:04 +0000)

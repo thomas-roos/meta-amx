@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v2.4.6 - 2022-09-13(11:42:52 +0000)
+
+### Fixes
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [AMX] Allow back-ends to modify their config section
+
 ## Release gen_honister_v2.4.5 - 2022-09-13(11:40:29 +0000)
 
 ### Fixes

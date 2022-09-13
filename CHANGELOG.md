@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v2.5.2 - 2022-09-13(11:56:55 +0000)
+
+### Fixes
+
+- [amxo-xml-to](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-xml-to): Update the date in the html template to 2022
+- [amxo-xml-to](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-xml-to): Broken reference to mibs in html pages
+
+### Changes
+
+- [amxo-xml-to](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-xml-to): It must be possible to customize style sheet, title and copyright notice in html
+
+### Other
+
+- [amxo-xml-to](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-xml-to): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when...
+
 ## Release gen_honister_v2.5.1 - 2022-09-13(11:53:31 +0000)
 
 ## Release gen_honister_v2.5.0 - 2022-09-13(11:47:40 +0000)

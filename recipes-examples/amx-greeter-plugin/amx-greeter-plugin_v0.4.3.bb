@@ -6,7 +6,7 @@ S = "${WORKDIR}/git"
 inherit pkgconfig config-amx
 
 SUMMARY = "Simple example application that creates a data model using the Ambiorix framework"
-LICENSE += "SAH & BSD-2-Clause-Patent"
+LICENSE += "BSD-2-Clause-Patent"
 LIC_FILES_CHKSUM += "file://LICENSE;md5=a705237d3056b8a8c89eb03485d722ce"
 
 COMPONENT = "amx-greeter-plugin"

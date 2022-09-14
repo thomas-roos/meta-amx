@@ -1,7 +1,6 @@
 
 
 SRC_URI = "git://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb.git;protocol=https;nobranch=1"
-SRCREV = "v4.2.20"
 S = "${WORKDIR}/git"
 inherit pkgconfig config-amx
 
@@ -25,3 +24,4 @@ RDEPENDS_${PN} += "uriparser"
 FILES_${PN}-dev += "${INCLUDEDIR}/amxb/*.h"
 FILES_${PN} += "${LIBDIR}/${COMPONENT}${SOLIBS}"
 FILES_${PN}-dev += "${LIBDIR}/${COMPONENT}${SOLIBSDEV}"
+

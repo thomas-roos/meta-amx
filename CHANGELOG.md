@@ -8,6 +8,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v3.0.0 - 2022-09-27(09:42:17 +0000)
+
+### Removed
+
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Component removed
+
+### New
+
+- [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): Add public function to check if getting a parameter is allowed
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): Component added
+- [mod-sahtrace](https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace): Component added
+
+### Fixes
+
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): Issue: HOP-1897- [UI] UI broken on WNC config
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): amxc_string_t does not handle empty strings properly
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [USP][CDROUTER] USP Agent never sent a notification to the controller
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [USP][CDROUTER] The agent sends the GetSupportedDMResp with missing "Device" when requested single object "Device.localAgent."
+
+### Changes
+
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): [USP] Location of odl save files needs to change
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Support Ambiorix access restriction from PCB bus, NET-3484 [PCB][AMX][ACL] It must be possible to apply ACLS on amx components in a PCB environment
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [USP] Add requests with search paths will be allowed
+
+### Other
+
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Integrate Devolo Interference Mitigation (integration)
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): libamxo build failed because when_true_status() macro is redefined.
+
 ## Release gen_honister_v2.6.3 - 2022-09-13(12:08:30 +0000)
 
 ### Changes

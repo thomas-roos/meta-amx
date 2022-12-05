@@ -1,7 +1,6 @@
 
 
 SRC_URI = "git://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb.git;protocol=https;nobranch=1"
-SRCREV = "v3.2.14"
 S = "${WORKDIR}/git"
 inherit pkgconfig config-amx
 
@@ -20,12 +19,12 @@ DEPENDS += "libamxa"
 DEPENDS += "libpcb"
 DEPENDS += "libusermngt"
 
-RDEPENDS_${PN} += "libamxc"
-RDEPENDS_${PN} += "libamxp"
-RDEPENDS_${PN} += "libamxd"
-RDEPENDS_${PN} += "libamxb"
-RDEPENDS_${PN} += "libpcb"
-RDEPENDS_${PN} += "libamxa"
-RDEPENDS_${PN} += "libusermngt"
+RDEPENDS:${PN} += "libamxc"
+RDEPENDS:${PN} += "libamxp"
+RDEPENDS:${PN} += "libamxd"
+RDEPENDS:${PN} += "libamxb"
+RDEPENDS:${PN} += "libamxa"
+RDEPENDS:${PN} += "libpcb"
+RDEPENDS:${PN} += "libusermngt"
 
-FILES_${PN} += "${BINDIR}/mods/amxb/${COMPONENT}.so"
+FILES:${PN} += "${BINDIR}/mods/amxb/${COMPONENT}.so"

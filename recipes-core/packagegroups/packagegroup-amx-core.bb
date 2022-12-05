@@ -16,9 +16,12 @@ RDEPENDS:${PN} = " \
     libamxp \
     libamxj \
     libamxb \
+    libamxa \
+    libamxt \
+    libamxs \
+    libamxm \
     amxrt \
+    amx-cli \
+    mod-ba-cli \
+    mod-sahtrace \
     "
-
-#libamxb_pcb
-#sah_mod_sahtrace
-

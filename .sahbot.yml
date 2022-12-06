@@ -1,6 +1,9 @@
 components:
   default:
     merge_strategy: "group_1"
+    auto_merge: true
+    auto_label: true
+
   libsahtrace:
     merge_strategy: "individual"
 

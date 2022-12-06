@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v3.1.1 - 2022-12-06(18:55:03 +0000)
+
+### Fixes
+
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): amxp_expr_buildf with 2 arguments only works in container, not on board
+
 ## Release gen_honister_v3.1.0 - 2022-12-06(15:24:34 +0000)
 
 ### New

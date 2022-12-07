@@ -8,6 +8,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v3.2.0 - 2022-12-07(11:14:58 +0000)
+
+### New
+
+- [acl-manager](https://gitlab.com/prpl-foundation/components/ambiorix/applications/acl-manager): [ACLManager] Create ACL user to handle secure acl checking
+
+### Fixes
+
+- [acl-manager](https://gitlab.com/prpl-foundation/components/ambiorix/applications/acl-manager): Clean up code
+- [acl-manager](https://gitlab.com/prpl-foundation/components/ambiorix/applications/acl-manager): Issue: verify return value of chown
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): Fix wrong usage of function amxd_path_setf
+- [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): [USP] Allow invoking commands without braces
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Fix wrong usage of function amxd_path_setf
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Issue #147 Add and update documentation for amxd_path API
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Add instance response is wrong when using key path notation on ubus
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Fix wrong usage of function amxd_path_setf
+
+### Other
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Fix some typos in the documentation
+
 ## Release gen_honister_v3.1.1 - 2022-12-06(18:55:03 +0000)
 
 ### Fixes

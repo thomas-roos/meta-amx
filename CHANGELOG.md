@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v3.3.0 - 2023-01-02(16:23:18 +0000)
+
+### New
+
+- [lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/lua-amx): Component added
+- [mod-lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/mod-lua-amx): Component added
+
 ## Release gen_honister_v3.2.11 - 2022-12-20(01:36:16 +0000)
 
 ## Release gen_honister_v3.2.10 - 2022-12-20(00:34:22 +0000)

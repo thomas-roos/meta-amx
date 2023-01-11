@@ -8,6 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v3.3.1 - 2023-01-11(22:41:51 +0000)
+
+### Fixes
+
+- [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): [AMX][USP] Only filter objects when at least one parameter was filtered
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [AMX][USP] A get on a protected parameter with public bus access must fail
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [ambiorix] transaction time is dependent on the number of parameters within the object
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): 0-timeout timer postponed when starting another longer timer
+
 ## Release gen_honister_v3.3.0 - 2023-01-02(16:23:18 +0000)
 
 ### New

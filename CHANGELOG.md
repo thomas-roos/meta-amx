@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v3.3.2 - 2023-01-12(10:42:10 +0000)
+
+### Fixes
+
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [AMX] ACL directory must be updated for mod-ba-cli
+
 ## Release gen_honister_v3.3.1 - 2023-01-11(22:41:51 +0000)
 
 ### Fixes

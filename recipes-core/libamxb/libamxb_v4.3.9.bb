@@ -9,7 +9,7 @@ inherit pkgconfig config-amx
 
 SUMMARY = "Bus agnostic C API (mediator)"
 LICENSE += "SAH & BSD-2-Clause-Patent"
-LIC_FILES_CHKSUM += "file://LICENSE;md5=6985054d3f2d7dbde00e278406c8cda2"
+LIC_FILES_CHKSUM += "file://LICENSE;md5=a705237d3056b8a8c89eb03485d722ce"
 
 COMPONENT = "libamxb"
 

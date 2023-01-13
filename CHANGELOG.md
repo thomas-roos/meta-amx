@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v3.3.4 - 2023-01-13(14:51:11 +0000)
+
+### Fixes
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [ambiorix] [regression] transaction time is dependent on the number of parameters within the object
+
 ## Release gen_honister_v3.3.3 - 2023-01-12(18:31:17 +0000)
 
 ## Release gen_honister_v3.3.2 - 2023-01-12(10:42:10 +0000)

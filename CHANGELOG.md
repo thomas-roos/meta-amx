@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v3.3.5 - 2023-01-20(13:23:58 +0000)
+
+### Fixes
+
+- [amx-greeter-app](https://gitlab.com/prpl-foundation/components/ambiorix/examples/datamodel/greeter_app): Issue: unit-test fails - Clean transaction object before re-using it
+- [amxo-cg](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg): [doc generation][NumberOfEntries field is not correctly put under the correct Object
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [AMXB] subscribing on different paths, still triggers all events cb
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [AMX][USP] A get on a protected parameter with public bus access must fail
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): An InstallDU call from USP is sometimes not called on SoftwareModules
+
+### Other
+
+- [lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/lua-amx): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
+- [lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/lua-amx): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
+
 ## Release gen_honister_v3.3.4 - 2023-01-13(14:51:11 +0000)
 
 ### Fixes

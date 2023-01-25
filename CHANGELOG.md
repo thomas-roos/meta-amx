@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v3.3.6 - 2023-01-25(00:29:51 +0000)
+
+### Fixes
+
+- [python-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/python3): Path to sut.dm.IP.Interface['3'].IPv4Address['1'].proxy() doenst work
+- [python-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/python3): [amx] Unable to get data model object after a reboot
+
 ## Release gen_honister_v3.3.5 - 2023-01-20(13:23:58 +0000)
 
 ### Fixes

@@ -3,10 +3,13 @@
 SRC_URI = "git://gitlab.com/prpl-foundation/components/ambiorix/bindings/python3.git;protocol=https;nobranch=1"
 SRCREV = "v0.2.16"
 
-S = "${WORKDIR}/git/src"
+S = "${WORKDIR}/git"
 
 inherit pkgconfig config-amx
 inherit setuptools3
+
+SETUPTOOLS_SETUP_PATH = "${S}/src"
+DISTUTILS_SETUP_PATH = "${SETUPTOOLS_SETUP_PATH}"
 
 SUMMARY = "Python AMX Bindings "
 LICENSE += "SAH & BSD-2-Clause-Patent"
@@ -43,3 +46,4 @@ EXTRA_OEMAKE += "DEST=${D} \
                  BINDIR=${bindir} \
                  INCLUDEDIR=${includedir} \
                  "
+

@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v3.4.0 - 2023-01-27(11:51:35 +0000)
+
+### New
+
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): [AMX] Write generic function for setting default parameter values
+
 ## Release gen_honister_v3.3.7 - 2023-01-25(13:10:48 +0000)
 
 ## Release gen_honister_v3.3.6 - 2023-01-25(00:29:51 +0000)

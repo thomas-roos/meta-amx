@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v3.5.0 - 2023-01-30(12:00:38 +0000)
+
+### New
+
+- [python-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/python3): Add amxb_set_config support to python3 amx bindings
+
+### Fixes
+
+- [python-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/python3): [amx] Error when we try a second reboot
+
 ## Release gen_honister_v3.4.0 - 2023-01-27(11:51:35 +0000)
 
 ### New

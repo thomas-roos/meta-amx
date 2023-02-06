@@ -1,13 +1,8 @@
 DESCRIPTION = "package group for the Ambiorix project"
-
-LICENSE = "MIT"
-
-SECTION = "packagegroup"
+SUMMARY = "Required packages to run Ambiorix bus converter"
+PR = "r1"
 
 inherit packagegroup
-
-PACKAGES = "${PN}"
-PROVIDES = "${PACKAGES}"
 
 RDEPENDS:${PN} = " \
     libamxc \ 

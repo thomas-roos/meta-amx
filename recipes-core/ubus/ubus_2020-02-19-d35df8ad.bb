@@ -23,7 +23,7 @@ EXTRA_OECMAKE += "\
                 -DCMAKE_INSTALL_LIBDIR:PATH=/lib \
                 "
 
-do_install:append () {
+do_install:append(){
     install -dm 0755 ${D}/sbin
     ln -s /usr/sbin/ubusd ${D}/sbin/ubusd
 

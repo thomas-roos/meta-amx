@@ -6,13 +6,8 @@ SECTION = "packagegroup"
 
 inherit packagegroup
 
-PACKAGES = "${PN}"
-PROVIDES = "${PACKAGES}"
-
 RDEPENDS:${PN} = " \
     amxb-inspect \
-    mod-amxb-ubus \
-    mod-amxb-pcb \
     amxrt \
     amxo-cg \
     amx-subscribe \
@@ -25,4 +20,7 @@ RDEPENDS:${PN} = " \
     amx-fcgi \
     amx-cli \
     amxo-xml-to \
+    ${@bb.utils.contains('LCM_SYSBUS','ubus','mod-amxb-ubus','',d)} \
     "
+
+

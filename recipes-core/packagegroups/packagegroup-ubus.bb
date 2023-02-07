@@ -11,4 +11,5 @@ DEPENDS += "libubox"
 RDEPENDS:${PN} = "\
     ubus \
     ubusd \
+    mod-amxb-ubus \
 "

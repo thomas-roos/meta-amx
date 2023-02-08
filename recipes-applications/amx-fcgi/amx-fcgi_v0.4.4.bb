@@ -37,6 +37,10 @@ RDEPENDS_${PN} += "${@ "lighttpd-module-expire" if (d.getVar("CONFIG_REST_API_WE
 RDEPENDS_${PN} += "lighttpd-module-authn-file"
 RDEPENDS_${PN} += "lighttpd-module-proxy"
 
+inherit update-rc.d
+INITSCRIPT_NAME = "${COMPONENT}"
+INITSCRIPT_PARAMS = "start 85 2 3 4 5 . stop 10 0 1 6 ."
+
 
 FILES_${PN} += "/etc/amx/amx-fcgi/amx-fcgi.odl"
 FILES_${PN} += "/usr/lib/amx/amx-fcgi/amx-fcgi.so"

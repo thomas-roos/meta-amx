@@ -38,6 +38,9 @@ RDEPENDS:${PN} += "libamxo"
 RDEPENDS:${PN} += "libamxa"
 RDEPENDS:${PN} += "libsahtrace"
 
+inherit update-rc.d
+INITSCRIPT_NAME = "${COMPONENT}"
+INITSCRIPT_PARAMS = "start 10 2 3 4 5 . stop 10 0 1 6 ."
 
 EXTRA_OEMAKE += "DEST=${D} \
                  PREFIX=${prefix} \

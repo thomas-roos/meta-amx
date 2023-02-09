@@ -1,7 +1,7 @@
 
 
 SRC_URI = "git://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-dm-cli.git;protocol=https;nobranch=1"
-SRCREV = ""
+SRCREV = "v0.2.4"
 
 S = "${WORKDIR}/git"
 

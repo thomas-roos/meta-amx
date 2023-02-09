@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v4.0.0 - 2023-02-09(18:27:43 +0000)
+
+### Removed
+
+- [libsahtrace](https://gitlab.com/prpl-foundation/components/core/libraries/libsahtrace): Component removed
+
 ## Release honister_v3.6.2 - 2023-02-09(18:12:09 +0000)
 
 ### Fixes

@@ -1,7 +1,7 @@
 
 
 SRC_URI = "git://gitlab.com/prpl-foundation/components/core/libraries/libsahtrace.git;protocol=https;nobranch=1"
-SRCREV = ""
+SRCREV = "v1.12.0"
 
 S = "${WORKDIR}/git"
 

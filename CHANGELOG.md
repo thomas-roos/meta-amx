@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v4.1.0 - 2023-04-12(16:38:32 +0000)
+
+### New
+
+- [lcmsampleapp](https://gitlab.com/prpl-foundation/): Component added
+
 ## Release honister_v4.0.4 - 2023-02-14(16:58:11 +0000)
 
 ## Release honister_v4.0.3 - 2023-02-10(22:50:22 +0000)

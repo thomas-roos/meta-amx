@@ -8,6 +8,95 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v5.1.0 - 2023-04-25(10:48:41 +0000)
+
+## Release honister_v5.0.0 - 2023-04-20(09:09:59 +0000)
+
+### Breaking
+
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Improve logical expression parser
+
+### New
+
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): [amx-fcgi][SWUpdate] Add upload file functionality
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [USP] Requirements for Get further clarified
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [AMX] Take bus access into account for GSDM
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [pcb] usp endpoint doesn't support pcb requests
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [USP] Requirements for Get further clarified
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [AMX] Take bus access into account for GSDM
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): AMX : make it possible to to define event handlers directly under object
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): [prpl][tr181-upnp] UPnP.Discovery and UPnP.Description are not implemented
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): Some control key sequences are incorrect defined
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [pcb] usp endpoint doesn't support pcb requests
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [AMX] Take bus access into account for GSDM
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Add json output format to cli (ubus-cli, pcb-cli, ba-cli)
+
+### Fixes
+
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): Issue:  HOP-2086 [WNC] Keyboard arrows not working within ubus-cli on serial
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): [AMX][CLI] Scripting: ubus-cli or ba-cli doesn't output anything without a pseudo-terminal
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): [AMX] gdbgui provides full path of cli module
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): Fix and complete unit tests
+- [amxo-cg](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg): amxo-cg fails to build correct include tree when parsing error occurs
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Can write event must only be created once
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Listen socket connections are not removed from the event loop
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [amx pcb]Who has on search paths with pcb back-end is not working
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [TR069-manager] [wnc] No ManagementServer object for wnc
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Object path verification should be done when subscribing
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [AMX] Unable to unsubscribe from search path
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Ignore empty read filter
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [amxd] methods with amxd_aattr_out argument return NULL
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [AMX] Protected objects should not be retrieved by gsdm
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Mop test netmodel_02_check_interfaces_test.py::test_wan_isup_query_loop fails due to unexpected out argument
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [uspagent] The 'Discovery' object in the dm cannot use gsdm
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): amxd_object_get_param_value should have its object parameter const
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [USP][AMX] GSDM needs a ValueChangeType
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Data model functions arguments don't inherit attributes from mib
+- [libamxj](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxj): [AMX] Reduce write calls done in amxj_write
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Improvements in amxp regarding amxp_dir_scan, timer documentation and slot disconnects
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): [SSH][AMX] Processes spawned by dropbear instance managed SSH Manager ignores SIGINT
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): unbound does not start after reboot in tagged mode
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): [CDROUTER][IPv6] Box sends 2 ICMPv6 RA when a RS is received on LAN
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Fix memory leakj wehn empty expression is used
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): Always execute the initial sync with protected access
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): [WNC] Keyboard arrows not working within ubus-cli on serial
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): [AMX][CLI] Scripting: ubus-cli or ba-cli doesn't output anything without a pseudo-terminal
+- [lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/lua-amx): Fix conditions when `luaL_setfuncs` should be set
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Onboarding Issue : Sometimes, PUBLISH is not sent
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [V12][USP] Push notification is not sent
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [Amxs][PCB] Amxs initial sync does not work with native pcb plugins
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [USP] Get requests with search paths on pcb can fail
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [USP][AMX] GSDM needs a ValueChangeType
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): [AMXB] protected objects are listed for public connection
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): [LCM] Error code is not forwarded correctly from LCM to USP in case of InstallDU using a non-existent EE
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): list operator using ubus backend without a path doesn't give a reply
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): list operator using ubus backend without a path doesn't give a reply
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): [ubus-cli] No alias paths in datamodel
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): [amxb_ubus]When calling a not existing method asynchronously no reply is given
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): When asking a parameter value in the cli, it returns more than expected.
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [Ambiorix] Implement function call with search path
+- [mod-sahtrace](https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace): No traces in syslog when plug-in is started deamonized from ssh session
+
+### Changes
+
+- [amxo-cg](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg): [PRPL] amxo-cg does not compile with libxml2 version 2.10.2
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Replace openwrt ASCII art by prplOS one
+
+### Other
+
+- [acl-manager](https://gitlab.com/prpl-foundation/components/ambiorix/applications/acl-manager): [KPN SW2][Security]Restrict ACL of guest user in Ambiorix datamodels
+- [acl-manager](https://gitlab.com/prpl-foundation/components/ambiorix/applications/acl-manager): [KPN SW2][Security]Restrict ACL of guest user in Ambiorix datamodels
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): [amx-fcgi] generated datamodel documentation is empty
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): Remove unneeded dependencies
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Fix a typo in the description of amxc_var_add_new_key_amxc_llist_t
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): [amxo] Saving and restoring the odl (config) section gives errors.
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): [odl] Regression conditional include does not take second if first is an empty directory
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): When odl includes an empty directory no error should be printed
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): Create the voice interface between ubus and pcb (tr104i1/2 mapper)
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [amx pcb]Not possible to retrieve list of parameters and functions of a template object
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [USP] Download() is handled synchronously
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): - [amx][mod-dmext] Implement function csv_values_matches_regexp
+
 ## Release honister_v4.1.0 - 2023-04-12(16:38:32 +0000)
 
 ### New

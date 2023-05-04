@@ -8,6 +8,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v6.1.0 - 2023-05-04(16:01:45 +0000)
+
+### New
+
+- [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): Component added
+
+## Release honister_v6.0.0 - 2023-04-25(11:02:43 +0000)
+
+### Breaking
+
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Remove deprecated odl syntax and pcb compatibility syntax
+
+### New
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb):  Implement capabilities and has function for object discovery
+
+### Fixes
+
+- [amxo-cg](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg): Fixes unit tests, removed deprecated syntax in tests
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): access to DM LocalAgent. using amxb_get fail on EW
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): ODL syntax documentation must be updated
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): [Amxs] Parameter callbacks are not called when an object instance is added
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Fix unit tests, remove deprecated odl syntax
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [V12][USP] Push notification is not sent
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): has must fail on empty object lookup
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Fix unit-tests, update test odls remove deprecated syntax
+
 ## Release honister_v5.1.0 - 2023-04-25(10:48:41 +0000)
 
 ## Release honister_v5.0.0 - 2023-04-20(09:09:59 +0000)

@@ -41,14 +41,16 @@ SAH_CONFIG += " \
 
 
 
-EXTRA_OEMAKE += "DEST=${D} \
-                 PREFIX=${prefix} \
-                 LIBDIR=${libdir} \
-                 BINDIR=${bindir} \
-                 INCLUDEDIR=${includedir} \
-                 "
+# EXTRA_OEMAKE += "DEST=${D} \
+#                  PREFIX=${prefix} \
+#                  LIBDIR=${libdir} \
+#                  BINDIR=${bindir} \
+#                  INCLUDEDIR=${includedir} \
+#                  "
 
 FILES:${PN}-dev += "${INCLUDEDIR}/debug/*.h"
 FILES:${PN} += "/lib/${COMPONENT}${SOLIBS}"
 FILES:${PN}-dev += "/lib/${COMPONENT}${SOLIBSDEV}"
 FILES:${PN}-dev += "${PKG_CONFIG_LIBDIR}/sahtrace.pc"
+
+BBCLASSEXTEND += "native"

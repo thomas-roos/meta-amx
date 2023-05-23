@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v7.0.1 - 2023-05-23(11:04:10 +0000)
+
+### Other
+
+- [acl-manager](https://gitlab.com/prpl-foundation/components/ambiorix/applications/acl-manager): - [HTTPManager][Login][amx-fcgi] Create a session
+
 ## Release honister_v7.0.0 - 2023-05-23(07:48:25 +0000)
 
 ### Breaking

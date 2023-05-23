@@ -8,6 +8,38 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v7.0.0 - 2023-05-23(07:48:25 +0000)
+
+### Breaking
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): gsdm missing arguments for commands and events
+
+### New
+
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): gsdm missing arguments for commands and events
+
+### Fixes
+
+- [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): [HTTPManager][Login][acl-manager] After firstboot acl group doesn't exist
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): gsdm missing arguments for commands and events
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): [amxc] Fix missing semicolon
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [unit-tests] Complete and extend unit tests
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Fix regression in amxd_path api
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [AMX] Changing optional parameters gives no events
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Use index paths when sending events after an odl file is parsed
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Check if htables are initialized
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): gsdm missing arguments for commands and events
+
+### Changes
+
+- [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): - [HTTPManager][Login][amx-fcgi] Create a session
+- [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): [USP] Must be able to call methods with named path
+
+### Other
+
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): Issue: ambiorix/applications/amx-fcgi#16 Document how to launch the example webui in a container
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Create the voice interface between ubus and pcb (tr104i1/2 mapper)
+
 ## Release honister_v6.1.0 - 2023-05-04(16:01:45 +0000)
 
 ### New

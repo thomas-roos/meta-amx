@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v7.2.0 - 2023-05-24(20:56:23 +0000)
+
+### New
+
+- [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): [Security][USP] Add ACLs for get instances to USP agent
+
 ## Release honister_v7.1.3 - 2023-05-24(20:29:57 +0000)
 
 ## Release honister_v7.1.2 - 2023-05-24(19:24:33 +0000)

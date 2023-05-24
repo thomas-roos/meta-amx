@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v7.1.2 - 2023-05-24(19:24:33 +0000)
+
+### Fixes
+
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [AMX] Get instances supports search paths
+
 ## Release honister_v7.1.1 - 2023-05-24(18:22:10 +0000)
 
 ## Release honister_v7.1.0 - 2023-05-24(16:13:04 +0000)

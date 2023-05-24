@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v7.1.0 - 2023-05-24(16:13:04 +0000)
+
+### New
+
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): [libamxp]Provide API for cron expression parsing and calculating next occurence
+
+### Fixes
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Add documentation to default action implementations
+
+### Other
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Documentation is missing for the get_instances operator
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Issue: ambiorix/libraries/libamxb#68 Documentation is missing for the get_instances operator
+
 ## Release honister_v7.0.1 - 2023-05-23(11:04:10 +0000)
 
 ### Other

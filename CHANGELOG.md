@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v7.3.0 - 2023-05-25(17:03:50 +0000)
+
+### New
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [USP] Add specific error codes for get instances
+
+### Changes
+
+- [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): [USP] Add specific error codes for get instances
+
 ## Release honister_v7.2.1 - 2023-05-25(06:49:43 +0000)
 
 ## Release honister_v7.2.0 - 2023-05-24(20:56:23 +0000)

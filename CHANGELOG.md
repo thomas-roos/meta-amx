@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v7.3.1 - 2023-05-26(12:57:44 +0000)
+
+### Fixes
+
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): Link with libyajl
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Scheduler does not take correct duration into account when multiple schedules expire at the same moment
+
 ## Release honister_v7.3.0 - 2023-05-25(17:03:50 +0000)
 
 ### New

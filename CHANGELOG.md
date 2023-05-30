@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v7.3.2 - 2023-05-30(09:47:02 +0000)
+
+### Fixes
+
+- [lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/lua-amx): Fix return values and throwing errors
+- [mod-lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/mod-lua-amx): Add unit tests
+
 ## Release honister_v7.3.1 - 2023-05-26(12:57:44 +0000)
 
 ### Fixes

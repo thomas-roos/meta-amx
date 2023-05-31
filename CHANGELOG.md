@@ -8,6 +8,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v7.4.0 - 2023-05-31(13:14:09 +0000)
+
+### New
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [AMX] Ambiorix should return the same error codes regardless of the used bus
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [AMX] Ambiorix should return the same error codes regardless of the used bus
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): [AMX] Ambiorix should return the same error codes regardless of the used bus
+
+### Fixes
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [AMX] Ambiorix should return the same error codes regardless of the used bus
+
+### Other
+
+- [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): Update documentation
+
 ## Release honister_v7.3.2 - 2023-05-30(09:47:02 +0000)
 
 ### Fixes

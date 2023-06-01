@@ -8,6 +8,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v8.0.0 - 2023-06-01(22:27:02 +0000)
+
+### New
+
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): [TR181-DeviceInfo][FCGI] Add rpc to read/write a file
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): [amx-fcgi]Refactor sessions code to make it easier to run the provided web-ui example
+
+### Fixes
+
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): [TR181-DeviceInfo][FCGI] Add rpc to read/write a file
+
+### Other
+
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): - [HTTPManager][Login][amx-fcgi] Create a session
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): - [HTTPManager][Login] Increase unit test coverage
+
 ## Release honister_v7.5.0 - 2023-06-01(21:12:06 +0000)
 
 ### New

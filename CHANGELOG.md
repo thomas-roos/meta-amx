@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v7.5.0 - 2023-06-01(21:12:06 +0000)
+
+### New
+
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): [PCB] add option to pcb-cli to mimic operator (usp) access
+- [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): [USP] GSDM events need to be filtered out
+
 ## Release honister_v7.4.0 - 2023-05-31(13:14:09 +0000)
 
 ### New

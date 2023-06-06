@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v8.0.2 - 2023-06-06(10:34:02 +0000)
+
+### Fixes
+
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Add more unit tests
+
 ## Release honister_v8.0.1 - 2023-06-02(08:19:41 +0000)
 
 ### Fixes

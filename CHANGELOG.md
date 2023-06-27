@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v10.1.1 - 2023-06-27(19:19:32 +0000)
+
+## Release honister_v10.1.0 - 2023-06-27(18:29:26 +0000)
+
+### New
+
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [amx][capabilities] Add support for reduced capabilities in ambiorix
+
 ## Release honister_v10.0.0 - 2023-06-27(16:47:22 +0000)
 
 ### New

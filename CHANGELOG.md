@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v10.0.0 - 2023-06-27(16:47:22 +0000)
+
+### New
+
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): use libamxrt
+
+### Fixes
+
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Segmentation fault can occur when timers are added or deleted from within a timer callback
+
 ## Release honister_v9.0.0 - 2023-06-21(14:39:49 +0000)
 
 ### New

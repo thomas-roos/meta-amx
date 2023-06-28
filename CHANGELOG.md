@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v10.1.2 - 2023-06-28(12:24:42 +0000)
+
+### Fixes
+
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [AMX] Crash with new libamxrt
+
 ## Release honister_v10.1.1 - 2023-06-27(19:19:32 +0000)
 
 ## Release honister_v10.1.0 - 2023-06-27(18:29:26 +0000)

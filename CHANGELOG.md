@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v10.1.3 - 2023-06-30(15:18:23 +0000)
+
+### Fixes
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Plugins crashing because of segfault in ambiorix
+
+### Changes
+
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): Add requests with search paths are allowed
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Add requests with search paths are allowed
+
 ## Release honister_v10.1.2 - 2023-06-28(12:24:42 +0000)
 
 ### Fixes

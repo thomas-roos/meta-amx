@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+}
+
+h1 {
+color: black;
+}
+p {
+color: black;
+}
+
+h2 {
+background-color: rgb(60, 179, 113);
+color: black;
+}
+
+label {
+    display: block;
+    width: 250px;
+    float: left;
+}

@@ -8,6 +8,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v10.1.4 - 2023-07-06(13:48:28 +0000)
+
+### Fixes
+
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): [amx-fcgi] Error 404 on REST API call on a empty table result
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [AMX] Add be data-uris to top level data-uris
+
+### Changes
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [AMX] Define default sockets in backends
+- [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): [DMProxy] Device. datamodel is not responding anymore if a proxied component is no responding
+
+### Other
+
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [AMX] Define default sockets in backends
+
 ## Release honister_v10.1.3 - 2023-06-30(15:18:23 +0000)
 
 ### Fixes

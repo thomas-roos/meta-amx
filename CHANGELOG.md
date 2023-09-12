@@ -8,6 +8,63 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.0.0 - 2023-09-12(17:40:53 +0000)
+
+### Breaking
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [USP] GSDM should return whether commands are (a)sync
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): [USP] GSDM should return whether commands are (a)sync
+
+### New
+
+- [amx-subscribe](https://gitlab.com/prpl-foundation/components/ambiorix/examples/baapi/subscribe): use new AMXRT prefix macro
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Use new AMXRT prefixed macros
+
+### Fixes
+
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): bus agnostic cli must be able to auto detect backends and sockets
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): - [prpl][user-management] Users role paths are not tr181 paths
+- [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): Enforce coding style - no declarations after code
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Enforce coding style - no declarations after code
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): When using GCC 12.2 extra compilation wanings pop-up
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): It is not possible to declare events in a mib
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Add documentation about data model modules - extensions
+- [libamxj](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxj): casting empty jstring to any causes crash
+- [libamxj](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxj): [libamxj]Add api doxygen documentation
+- [libamxm](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxm): Enforce coding style - no declarations after code
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Update documentation for amxo_parser_get_config()
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): It is not possible to declare events in a mib
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): ODL parser fails to open file in root directory
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Update - extend odl documentation
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): amxp singal pipefds should be closed when spawning child processes
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Expression function contains should be able to use a list of values
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): [libamxp] When enable or disable a scheduler it is possible that signals are not emitted or triggered
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Do not remove readme file when opesourcing
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Enforce coding style - no declarations after code
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): Enforce coding style - no declarations after code
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): Enforce coding style - no declarations after code
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [tr181-device] Crash during boot
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [USP] GSDM should return whether commands are (a)sync
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): bus agnostic cli must be able to auto detect backends and sockets
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [ba-cli] output in 10s when ba-cli query invoked from console
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Memory leak in ba-cli with auto-connect functionality
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): bus agnostic cli must be able to auto detect backends and sockets
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): bus agnostic cli must be able to auto detect backends and sockets
+
+### Changes
+
+- [amx-greeter-plugin](https://gitlab.com/prpl-foundation/components/ambiorix/examples/datamodel/greeter_plugin): [USP] GSDM should return whether commands are (a)sync
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): [libamxp]Scheduler api should be more tolerant regarding spaces in days of week list
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [USP] GSDM should return whether commands are (a)sync
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [USP] GSDM should return whether commands are (a)sync
+
+### Other
+
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): [amx-fcgi][SWUpdate] Upload command should stream file directly to the disk
+- [amx-greeter-app](https://gitlab.com/prpl-foundation/components/ambiorix/examples/datamodel/greeter_app): - solve minor makefile errors and use AMXRT_ macro prefix
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Make the AMX Bus Rust API safe-to-use
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): - Refactor libamxrt for compatibility with prplmesh
+
 ## Release honister_v10.1.4 - 2023-07-06(13:48:28 +0000)
 
 ### Fixes

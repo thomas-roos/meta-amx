@@ -1,5 +1,7 @@
 
 
+GIT_BASE_URL = "${GIT_BASE_URL}"
+
 SRC_URI = "git://${GIT_BASE_URL}/iot/lcm/samples/lcmsampleapp.git;protocol=https;nobranch=1;;nobranch=1;"
 SRCREV = "71724b6e6a33b12010d2d76f8dd8f9eea15a7dfd"
 

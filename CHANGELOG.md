@@ -8,6 +8,59 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.1.0 - 2023-10-09(13:54:34 +0000)
+
+### New
+
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): [amx-fcgi] Add reporting of number of unsuccessful login attempts
+
+### Fixes
+
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): [amx-cli]Redirecting output to file prints error
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): - [amx-fcgi] admin user cannot add to Device.Routing.Router.[Alias=='main'].IPv4Forwarding.
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): - [prpl][amx-fcgi] amx_fcgi_http_subscribe return wrong status code
+- [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): - [ACL][libamxa] When a search path is allowed but not its fixed part amxa_get fail
+- [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): Fix license headers in files
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Don't return listen context from who_has
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Fix license headers in files
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [PRPL][SAFRAN] Wan is not up after reset, only after additional reboot
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Subscriptions on mib objects not correctly removed
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Fix license headers in files
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): amxb_describe() returning non expected results over the pcb bus
+- [libamxj](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxj): Improve and omptimize some parts for speed
+- [libamxm](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxm): Fix license headers in files
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Improve and optimize some parts for speed
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Fix license headers in files
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Fix license headers in files
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): Fix license headers in files
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): [ubus-cli/ba-cli] Pasting multiple commands trims first letters
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): amx-cli crash when unhandled key strokes are pressed
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): [CHR2fA] ubus-cli console generate a segmentation fault
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [tr181-device] Crash during boot
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [tr181-device] Crash during boot and shutdown
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): amx path queries to pcb bus are missing entries
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Fix license headers in files
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): amxb_describe() returning non expected results over the pcb bus
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): High CPU and Memory usage
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): It must be possible to call native ubus object methods
+- [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): [PRPL][SAFRAN] Wan is not up after reset, only after additional reboot
+
+### Changes
+
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): [ubus-cli/ba-cli] Read commands from stdin
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): allow amxc_var_dump with FILE*
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [tr181-device] Crash during boot
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Create directory before user privilege and capability dropping
+- [mod-sahtrace](https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace): Only save trace-zones
+
+### Other
+
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Develop generic prpl voiceactivation module
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [Ambiorix] Build error on KPN SW2 caused by opensource_libcapng=gen_v0.8.2
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Remove duplicate CI variable
+- [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): [mod_dmproxy] fix missing libsahtrace search path
+- [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): Crash during shutdown
+
 ## Release honister_v11.0.4 - 2023-10-09(11:34:29 +0000)
 
 ## Release honister_v11.0.3 - 2023-09-22(09:29:04 +0000)

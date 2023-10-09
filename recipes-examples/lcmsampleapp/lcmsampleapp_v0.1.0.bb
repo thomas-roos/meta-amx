@@ -1,18 +1,14 @@
+FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
+SRC_URI += "file://lcmsampleapp/"
 
-
-GIT_BASE_URL = "${GIT_BASE_URL}"
-
-SRC_URI = "git://${GIT_BASE_URL}/iot/lcm/samples/lcmsampleapp.git;protocol=https;nobranch=1;;nobranch=1;"
-SRCREV = "71724b6e6a33b12010d2d76f8dd8f9eea15a7dfd"
-
-S = "${WORKDIR}/git"
+S = "${WORKDIR}/lcmsampleapp"
 
 inherit pkgconfig config-amx
+inherit sah_base
 
 SUMMARY = "Simple example application that creates a data model using the Ambiorix framework to manipulate in LCM examples"
-LICENSE += "SAH & BSD-2-Clause-Patent"
+LICENSE += "BSD-2-Clause-Patent"
 LIC_FILES_CHKSUM = " \
-                    file://LICENSE.SAH;md5=0932cf5fc39598749a450b17fb33898c \
                     file://LICENSE.BSD;md5=6985054d3f2d7dbde00e278406c8cda2 \
                     "
 

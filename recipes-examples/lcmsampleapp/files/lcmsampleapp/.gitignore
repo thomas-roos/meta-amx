@@ -1,0 +1,11 @@
+**/output/*
+**/run_test
+**/include_priv/components.h
+**/doc/html/*
+**/doc/latex/*
+*.png
+*.html
+*.o
+*.tags
+*.autotags.pid
+openwrt/

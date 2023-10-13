@@ -4,7 +4,6 @@ SRC_URI += "file://lcmsampleapp/"
 S = "${WORKDIR}/lcmsampleapp"
 
 inherit pkgconfig config-amx
-inherit sah_base
 
 SUMMARY = "Simple example application that creates a data model using the Ambiorix framework to manipulate in LCM examples"
 LICENSE += "BSD-2-Clause-Patent"

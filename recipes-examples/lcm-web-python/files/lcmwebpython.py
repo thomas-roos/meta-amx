@@ -19,7 +19,7 @@ amx_error = None
 def initialize_amx_usp():
     pamx.backend.load("/usr/bin/mods/amxb/mod-amxb-usp.so")
     pamx.backend.set_config({})
-    connection = pamx.bus.connect("usp:/var/run/usp/endpoint.sock")
+    connection = pamx.bus.connect("usp:/var/run/usp/endpoint_agent_path")
     return connection
 
 # Python AMX functions : get/set/add/delete

@@ -8,6 +8,134 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.2.0 - 2023-12-19(14:46:57 +0000)
+
+### New
+
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): Refactor libamxo - libamxp: move fd and connection management out of libamxo
+- [amxo-cg](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg): Add parameter constraints to generated xml files
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): - [prpl][libamxc] amxc_set_to_string only use space as separator
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): [libamxc] Some characters in amxc string can have special purpose and it must be possible to escape them
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Add posibility for action handlers to provide a description
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Make it possible to declare synchronization templates in odl files
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Add parameter constraints to generated xml files
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): [libamxo]Make it possible to define object synchronisation in odl
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Refactor libamxo - libamxp: move fd and connection management out of libamxo
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Refactor libamxo - libamxp: move fd and connection management out of libamxo
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): Add support for named and search paths in sync ctx
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): Add support for read-only parameters in a local datamodel
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): Make it possible to declare synchronization templates in odl files
+- [lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/lua-amx): ambiorix lua bindings must be extended
+- [lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/lua-amx): ambiorix lua bindings must be extended
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Add posibility for action handlers to provide a description
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): Add posibility for action handlers to provide a description
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): CLONE - [Data model] Add (X_PRPL-COM_)WINSServer parameter in DHCPv4 Server Pool: part 1, provide DataModel
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): [mod-dmext]Improve and extend object reference functionality
+- [mod-sahtrace](https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace): Implement a global Logging policy.
+
+### Fixes
+
+- [acl-manager](https://gitlab.com/prpl-foundation/components/ambiorix/applications/acl-manager): Fix license headers in files
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): Fix license headers in files
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): [amx-cli]List doesn't provide output when redirected to file
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): [cli] Reduce syslog messages when starting ubus-cli/ba-cli/...
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): Add timestamp for events printed in AMX CLI
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): [amx-fcgi]Segfault detected with unit-tests
+- [amxb-inspect](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxb-inspect): Fix license headers in files
+- [amxo-cg](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg): Fix license headers in files
+- [amxo-xml-to](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-xml-to): Fix license headers in files
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Fix the linker again, errors were still encountered with the previous one
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Fix license headers in files
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): [AMX] libamxo linker issue
+- [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): ACL checking broken for add  without search path
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [libamxb]Segfault when local async-call in progress and conection lost to bus system
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [libamxb]Segfault when local async-call in progress and conection lost to bus system
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [libamxb]Possible memory leak when async request are open on local datamodel when exiting
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Inconsistent status types in amxb_get_multiple and amxb_set_multiple
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [AMX] Cache size is not updated correctly
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [AMX] Add extra NULL pointer checks
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [libamxb]Memory leak - closed pending asynchronous request are not freed when disconnecting
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [PRPL OJO NOKIA][GMAP] The GMap server crashes when a new wired device, like an IP printer or IP camera, is plugged in.
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): tr181-usermanagement segfault during startup
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [AMX] Only return objects that contain the parameter
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [AMX] Only return objects that contain the parameter
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [AMX] Make it possible to _exec functions with braces
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Update and extend documentation
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Fix license headers in files
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): [WiFi] Cannot use a WiFi password containing the character "
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): [Amxo] Cannot create synchronization template without adding "{i}." to the objects
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): pwhm datamodel load failure after reboot
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): [libamxp]Memory when parsing invalid list value
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Update and extend documentation
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [amxrt][no-root-user][capability drop] failed to add capabilities for a forked process
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [AMX] Only detect sockets for loaded backends
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [amxrt] Need to load backends from multiple directories
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [libamxo]Make it possible to define object synchronisation in odl
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): Avoid infinite event loop in bidirectional parameter sync
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): Set entry pointer to NULL if initialization fails
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): Fix batch parameter sync direction
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): [AMX] Only return objects that contain the parameter
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): [amx-cli]List doesn't provide output when redirected to file
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): Ubus-cli does not start if no tty is available
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): pcb_cli parameter query returns error when query-ing amx parameter
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Full objects are replied when it is not needed
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [DataModel][TR-181]"Device.DeviceInfo.VendorConfigFile.Date" parameter type Not as expected
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Fix license headers in files
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Modify libbart for PCB Components Compatibility with PCM-Manager
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Wifi NOK on Safran prpl mainline
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [amx-cli]Completion on empty or root object is not working when using multiple connections
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Fix license headers in files
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [amx-cli]List doesn't provide output when redirected to file
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [amx-cli]Completion on empty or root object is not working when using multiple connections
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Wifi NOK on Safran prpl mainline
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [ba-cli] bus URIs duplicated
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Update ba-cli bus commands documentation
+- [mod-dm-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-dm-cli): Fix license headers in files
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): Fix license headers in files
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): [TR181 LED] Defaults are not loaded when log level is set via CLI
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): set_object_ref no longer accepts empty strings
+- [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): [LCM][usp] objectcreation and objectdeletion notifications no longer received
+- [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): [AMX] Device prefix missing for add responses to search paths
+
+### Changes
+
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): - [UI][LAN versus WAN admin] Allow the WAN and the LAN UI to have different ACL(users)
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): [ConnDB][WebUI] Create a webui for the connection database
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): [ServiceID][WebUI] set correct acl settings for webui
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [CDROUTER][USP] usp_conformance_10_13 : Cannot add a new MQTT BulkData Profile
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Add and update documentation
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Refactor libamxo - libamxp: move fd and connection management out of libamxo
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): [libamxo]Update odl documentation and API regarding object synchronisation
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Include extensions directory in ODL
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [amxrt] Need to load backends from multiple directories
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [libamxo]Make it possible to define object synchronisation in odl
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): Refactor libamxo - libamxp: move fd and connection management out of libamxo
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): Refactor libamxo - libamxp: move fd and connection management out of libamxo
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): [doc]Describe how to access ubusd as non-root user
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Refactor libamxo - libamxp: move fd and connection management out of libamxo
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [mod-ba-cli]The cli is always resolving environment variables and configuration variables
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Extend help of get command `?`
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Add timestamp for events printed in AMX CLI
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Add and update documentation
+- [mod-dm-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-dm-cli): Refactor libamxo - libamxp: move fd and connection management out of libamxo
+
+### Other
+
+- [acl-manager](https://gitlab.com/prpl-foundation/components/ambiorix/applications/acl-manager): Add the BSD-2-Clause-Patent license
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): [AMX] libamxo linker issue
+- [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): - [prpl][libamxa] Create an object using a search path isn't allowed
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Issue ST-1184 [amxb][amxc][amxo][amxrt] Fix typos in documentation
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [amxb][amxc][amxo][amxrt] Fix typos in documentation
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Issue ST-1184 [amxb][amxc][amxo][amxrt] Fix typos in documentation
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): [amxb][amxc][amxo][amxrt] Fix typos in documentation
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Issue ST-1184 [amxb][amxc][amxo][amxrt] Fix typos in documentation
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): [amxb][amxc][amxo][amxrt] Fix typos in documentation
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Issue ST-1184 [amxb][amxc][amxo][amxrt] Fix typos in documentation
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [amxb][amxc][amxo][amxrt] Fix typos in documentation
+- [lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/lua-amx): Add example lua script
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [USP] [Add_msg] Wrong error code in the response when a Add message is requested with an invalid parameter or value.
+- [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): CLONE - [CHR2fA] tr181-device plugin crash (short term)
+
 ## Release honister_v11.1.2 - 2023-10-13(14:42:01 +0000)
 
 ## Release honister_v11.1.1 - 2023-10-10(03:24:22 +0000)

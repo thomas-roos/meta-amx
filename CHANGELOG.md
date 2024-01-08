@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.3.0 - 2024-01-08(14:27:52 +0000)
+
+### Other
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): call destroy callback on root object destruction
+
 ## Release honister_v11.2.0 - 2023-12-19(14:46:57 +0000)
 
 ### New

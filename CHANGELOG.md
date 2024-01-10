@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.3.1 - 2024-01-10(08:35:55 +0000)
+
+### Fixes
+
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): [Amxs] Apply sync direction to all child entries recursively
+
 ## Release honister_v11.3.0 - 2024-01-08(14:27:52 +0000)
 
 ### Other

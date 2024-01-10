@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.3.5 - 2024-01-10(12:19:33 +0000)
+
+### Other
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): update documentation for amxb_wait_for_object
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): update documentation for amxb_wait_for_object
+
 ## Release honister_v11.3.4 - 2024-01-10(11:05:16 +0000)
 
 ## Release honister_v11.3.3 - 2024-01-10(10:52:08 +0000)

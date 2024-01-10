@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.3.3 - 2024-01-10(10:52:08 +0000)
+
+### Fixes
+
+- [libamxm](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxm): Adapt description of ambiorix packages
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): [WNC-CHR2][LCM] SoftwareModules cannot be found
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): [amx-cli] Allow proper escaping of variable in cli for input and display
+
 ## Release honister_v11.3.2 - 2024-01-10(10:16:15 +0000)
 
 ### Fixes

@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.3.6 - 2024-01-11(08:10:20 +0000)
+
+### Fixes
+
+- [acl-manager](https://gitlab.com/prpl-foundation/components/ambiorix/applications/acl-manager): Adapt description of ambiorix packages
+
 ## Release honister_v11.3.5 - 2024-01-10(12:19:33 +0000)
 
 ### Other

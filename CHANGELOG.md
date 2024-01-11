@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.3.7 - 2024-01-11(09:24:07 +0000)
+
+### Fixes
+
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [amx-cli] Allow proper escaping of variable in cli for input and display
+
 ## Release honister_v11.3.6 - 2024-01-11(08:10:20 +0000)
 
 ### Fixes

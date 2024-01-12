@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.3.8 - 2024-01-12(07:39:12 +0000)
+
+### Fixes
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [PCB Backend] Incoming requests are handled while waiting for a response
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [amx]Datamodels accessed through pcb must respect the pcb notification request flags
+
+### Changes
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [amx]Datamodels accessed through pcb must respect the pcb notification request flags
+
 ## Release honister_v11.3.7 - 2024-01-11(09:24:07 +0000)
 
 ### Fixes

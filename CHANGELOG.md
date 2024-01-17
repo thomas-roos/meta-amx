@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.3.9 - 2024-01-17(22:00:59 +0000)
+
+### Other
+
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [BaRt] Failed to handle multiple keys
+
 ## Release honister_v11.3.8 - 2024-01-12(07:39:12 +0000)
 
 ### Fixes

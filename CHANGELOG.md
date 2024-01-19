@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.6.0 - 2024-01-19(21:58:18 +0000)
+
+### Changes
+
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): [ambiorix][libamxs]Reduce initial sync size to minimum depth for synchronization context
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): [ambiorix][synchronization]The synchronization library must also synchronize sub-objects when an instance is added
+
 ## Release honister_v11.5.0 - 2024-01-19(12:19:34 +0000)
 
 ### Fixes

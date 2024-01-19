@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.5.0 - 2024-01-19(12:19:34 +0000)
+
+### Fixes
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Problems with getdebug on Nokia prpl mainline
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [PCB Backend] Incoming requests are handled while waiting for a response
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [amx]Datamodels accessed through pcb must respect the pcb notification request flags
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Error codes are lost when using the pcb mapper
+
+### Changes
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Problems with getdebug on Nokia prpl mainline
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [amx]Datamodels accessed through pcb must respect the pcb notification request flags
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [AMX_PCB] subscribing before creating object, do not get events.
+
 ## Release honister_v11.4.0 - 2024-01-18(13:08:08 +0000)
 
 ### Changes

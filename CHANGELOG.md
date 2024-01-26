@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.7.0 - 2024-01-26(06:40:11 +0000)
+
+### Other
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [Ambiorix] Amxb_set and amxb_del should return more info about each parameter
+
 ## Release honister_v11.6.0 - 2024-01-19(21:58:18 +0000)
 
 ### Changes

@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.8.0 - 2024-01-26(07:21:21 +0000)
+
+### Other
+
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): [CI][HTTPAccess] Plugin not starting due to race condition with Device.Users
+
 ## Release honister_v11.7.0 - 2024-01-26(06:40:11 +0000)
 
 ### Other

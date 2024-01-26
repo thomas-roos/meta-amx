@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.9.0 - 2024-01-26(13:05:08 +0000)
+
+### Other
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [amx][cli] Add syntax to filter parameters list
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [amx][cli] Add syntax to filter parameters list - fix version check unit test
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Update amxb_set documentation
+
 ## Release honister_v11.8.0 - 2024-01-26(07:21:21 +0000)
 
 ### Other

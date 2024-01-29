@@ -8,6 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.11.0 - 2024-01-29(14:05:28 +0000)
+
+### Other
+
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): [amx][cli] Add syntax to filter parameters list
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [amx][cli] Add syntax to filter parameters list
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): [amx][cli] Add syntax to filter parameters list
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [amx][cli] Add syntax to filter parameters list
+
 ## Release honister_v11.10.0 - 2024-01-26(21:11:13 +0000)
 
 ### Other

@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.11.2 - 2024-01-31(11:51:38 +0000)
+
+### Other
+
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): [amx-cli] Allow proper escaping of variable in cli for input and display
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [ba-cli] Events are not showed when requested using pcb-cli with gsdm command
+
 ## Release honister_v11.11.1 - 2024-01-29(17:35:37 +0000)
 
 ### Other

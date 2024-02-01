@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.12.0 - 2024-02-01(15:58:07 +0000)
+
+### New
+
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): [AMX] Add ends with expression operator
+
 ## Release honister_v11.11.2 - 2024-01-31(11:51:38 +0000)
 
 ### Other

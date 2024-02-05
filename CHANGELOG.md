@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.13.0 - 2024-02-05(22:17:06 +0000)
+
+### Other
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [cli]It must be possible to connect to ipv6 lla
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Improve save and load functionality
+
 ## Release honister_v11.12.0 - 2024-02-01(15:58:07 +0000)
 
 ### New

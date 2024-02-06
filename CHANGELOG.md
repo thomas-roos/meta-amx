@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.14.1 - 2024-02-06(12:22:18 +0000)
+
+### Other
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Crash pwhm on lb6
+
 ## Release honister_v11.14.0 - 2024-02-06(09:50:55 +0000)
 
 ### Other

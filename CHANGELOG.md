@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.14.0 - 2024-02-06(09:50:55 +0000)
+
+### Other
+
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): CLONE - Functional issues linked to parenthesis escaping in the data model
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [cli]It must be possible to connect to ipv6 lla
+
 ## Release honister_v11.13.0 - 2024-02-05(22:17:06 +0000)
 
 ### Other

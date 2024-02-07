@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.14.2 - 2024-02-07(11:52:23 +0000)
+
+### Other
+
+- [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): [dmproxy] Some parameter paths are not well shown in the dm proxy
+
 ## Release honister_v11.14.1 - 2024-02-06(12:22:18 +0000)
 
 ### Other

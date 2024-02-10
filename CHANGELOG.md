@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.14.3 - 2024-02-10(08:59:23 +0000)
+
+### Other
+
+- [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): [Prpl] Bad rpath makes build fail on Yocto LCM build
+
 ## Release honister_v11.14.2 - 2024-02-07(11:52:23 +0000)
 
 ### Other

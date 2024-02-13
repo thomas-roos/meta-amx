@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.14.4 - 2024-02-13(10:01:18 +0000)
+
+### Fixes
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Fix a memory growth
+
+### Other
+
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): tr181-device crashes when using combination of proxy and parameter  synchronistation
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [ba-cli]ba-cli should connect to all available bus systems
+
 ## Release honister_v11.14.3 - 2024-02-10(08:59:23 +0000)
 
 ### Other

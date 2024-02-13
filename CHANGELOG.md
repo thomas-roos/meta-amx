@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.14.5 - 2024-02-13(11:31:31 +0000)
+
+### Other
+
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Functional issues linked to parenthesis escaping in the data model
+
 ## Release honister_v11.14.4 - 2024-02-13(10:01:18 +0000)
 
 ### Fixes

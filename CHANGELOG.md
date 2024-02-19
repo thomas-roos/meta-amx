@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.14.7 - 2024-02-19(12:12:08 +0000)
+
+### Other
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): uspagent -D crash
+
 ## Release honister_v11.14.6 - 2024-02-19(09:34:54 +0000)
 
 ### Fixes

@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.14.6 - 2024-02-19(09:34:54 +0000)
+
+### Fixes
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Crash in tr181-device
+
 ## Release honister_v11.14.5 - 2024-02-13(11:31:31 +0000)
 
 ### Other

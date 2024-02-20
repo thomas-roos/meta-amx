@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.14.8 - 2024-02-20(09:02:14 +0000)
+
+### Other
+
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Amxrt should connect to bus systems before daemonizing
+
 ## Release honister_v11.14.7 - 2024-02-19(12:12:08 +0000)
 
 ### Other

@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.16.0 - 2024-02-20(17:57:27 +0000)
+
+### Fixes
+
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): Correct loop detection for object-changed events
+
 ## Release honister_v11.15.0 - 2024-02-20(17:06:45 +0000)
 
 ### Other

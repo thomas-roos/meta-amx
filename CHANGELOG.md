@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.15.0 - 2024-02-20(17:06:45 +0000)
+
+### Other
+
+- [lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/lua-amx): [AMX] Lua bindings should only connect to default sockets when the backend is loaded
+
 ## Release honister_v11.14.8 - 2024-02-20(09:02:14 +0000)
 
 ### Other

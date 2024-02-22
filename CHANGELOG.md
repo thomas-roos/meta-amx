@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.16.1 - 2024-02-22(17:53:10 +0000)
+
+### Other
+
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [ba-cli] "ubus-protected" not working anymore
+
 ## Release honister_v11.16.0 - 2024-02-20(17:57:27 +0000)
 
 ### Fixes

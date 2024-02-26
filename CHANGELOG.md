@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.16.2 - 2024-02-26(11:31:48 +0000)
+
+### Other
+
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): [prpl] Authorization header uses 'bearer' instead of 'Bearer'
+
 ## Release honister_v11.16.1 - 2024-02-22(17:53:10 +0000)
 
 ### Other

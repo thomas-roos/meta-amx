@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.16.3 - 2024-02-28(11:31:36 +0000)
+
+### Other
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [PCB] Add parameter_not_found error code
+
 ## Release honister_v11.16.2 - 2024-02-26(11:31:48 +0000)
 
 ### Other

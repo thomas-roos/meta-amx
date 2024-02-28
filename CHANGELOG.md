@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.16.4 - 2024-02-28(12:55:41 +0000)
+
+### Fixes
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Do not create a subscription if an object is found and the notify flags are not set
+
 ## Release honister_v11.16.3 - 2024-02-28(11:31:36 +0000)
 
 ### Other

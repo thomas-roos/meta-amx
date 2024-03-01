@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.16.6 - 2024-03-01(09:57:05 +0000)
+
+### Other
+
+- [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): [cli]Always add last command at the bottom of the history
+
 ## Release honister_v11.16.5 - 2024-02-29(19:31:40 +0000)
 
 ## Release honister_v11.16.4 - 2024-02-28(12:55:41 +0000)

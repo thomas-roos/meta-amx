@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.17.0 - 2024-03-05(09:32:15 +0000)
+
+### New
+
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): Add some extra functions in mod_dmext to read/write values directly in files.
+
 ## Release honister_v11.16.6 - 2024-03-01(09:57:05 +0000)
 
 ### Other

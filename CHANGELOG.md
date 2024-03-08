@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.17.1 - 2024-03-08(12:01:47 +0000)
+
+### Other
+
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): [AMX] Implement rotation for when a defined max of instances is reached
+
 ## Release honister_v11.17.0 - 2024-03-05(09:32:15 +0000)
 
 ### New

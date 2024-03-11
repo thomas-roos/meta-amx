@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.18.0 - 2024-03-11(12:23:54 +0000)
+
+### New
+
+- [mod-sahtrace](https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace): [TR181-Syslog] log syslog to a dedicated destination
+
 ## Release honister_v11.17.2 - 2024-03-08(13:33:27 +0000)
 
 ### Other

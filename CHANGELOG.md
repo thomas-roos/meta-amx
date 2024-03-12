@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.18.1 - 2024-03-12(12:58:15 +0000)
+
+### Other
+
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Hosts tests NOK on Safran
+
 ## Release honister_v11.18.0 - 2024-03-11(12:23:54 +0000)
 
 ### New

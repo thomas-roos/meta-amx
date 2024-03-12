@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.19.0 - 2024-03-12(13:06:57 +0000)
+
+### Other
+
+- [amxo-cg](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg): [AMX][Documentation] Allow to configure the proxied datamodel path in documentation
+
 ## Release honister_v11.18.1 - 2024-03-12(12:58:15 +0000)
 
 ### Other

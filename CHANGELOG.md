@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.19.1 - 2024-03-14(22:19:39 +0000)
+
+### Other
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Datamodel application generic performance improvement
+
 ## Release honister_v11.19.0 - 2024-03-12(13:06:57 +0000)
 
 ### Other

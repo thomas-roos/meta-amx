@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.20.0 - 2024-03-15(13:38:43 +0000)
+
+### Other
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): After reboot all hosts are disconnected (AKA amb timeouts)
+
 ## Release honister_v11.19.1 - 2024-03-14(22:19:39 +0000)
 
 ### Other

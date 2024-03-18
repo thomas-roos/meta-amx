@@ -9,7 +9,7 @@ inherit pkgconfig config-amx
 
 SUMMARY = "Small and flexible library to enable tracing and logging"
 LICENSE += "SAH & BSD-2-Clause-Patent"
-LIC_FILES_CHKSUM += "file://LICENSE;md5=6985054d3f2d7dbde00e278406c8cda2"
+LIC_FILES_CHKSUM += "file://LICENSE;md5=cd9db409406fd4c7234d852479547016"
 
 COMPONENT = "libsahtrace"
 

@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.21.2 - 2024-03-18(13:14:30 +0000)
+
+### Other
+
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [ba-cli]When set fails the error must be printed instead of no data found
+
 ## Release honister_v11.21.1 - 2024-03-17(18:12:50 +0000)
 
 ## Release honister_v11.21.0 - 2024-03-17(17:52:58 +0000)

@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.23.1 - 2024-03-20(10:35:21 +0000)
+
+### Fixes
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [AMX] Eventing no longer works for mapped native pcb objects
+
 ## Release honister_v11.23.0 - 2024-03-19(17:26:25 +0000)
 
 ## Release honister_v11.22.1 - 2024-03-18(16:00:52 +0000)

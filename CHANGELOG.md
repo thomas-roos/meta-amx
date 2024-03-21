@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.23.2 - 2024-03-21(09:22:35 +0000)
+
+### Fixes
+
+- [mod-sahtrace](https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace): After reboot all hosts are disconnected (AKA amb timeouts)
+
 ## Release honister_v11.23.1 - 2024-03-20(10:35:21 +0000)
 
 ### Fixes

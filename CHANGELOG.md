@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v11.23.3 - 2024-03-25(13:51:17 +0000)
+
+### Fixes
+
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Fix nested list parsed as not-nested list
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): fix string literal with leading/trailing spaces parsed as without
+
 ## Release honister_v11.23.2 - 2024-03-21(09:22:35 +0000)
 
 ### Fixes

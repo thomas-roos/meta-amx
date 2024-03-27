@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v11.24.0 - 2024-03-27(20:13:31 +0000)
+
+### New
+
+- [mod-amxb-rbus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_rbus2): Component added
+
 ## Release gen_honister_v11.23.3 - 2024-03-25(13:51:17 +0000)
 
 ### Fixes

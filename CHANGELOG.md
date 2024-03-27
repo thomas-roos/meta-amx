@@ -8,158 +8,158 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
-## Release honister_v11.23.3 - 2024-03-25(13:51:17 +0000)
+## Release gen_honister_v11.23.3 - 2024-03-25(13:51:17 +0000)
 
 ### Fixes
 
 - [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Fix nested list parsed as not-nested list
 - [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): fix string literal with leading/trailing spaces parsed as without
 
-## Release honister_v11.23.2 - 2024-03-21(09:22:35 +0000)
+## Release gen_honister_v11.23.2 - 2024-03-21(09:22:35 +0000)
 
 ### Fixes
 
 - [mod-sahtrace](https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace): After reboot all hosts are disconnected (AKA amb timeouts)
 
-## Release honister_v11.23.1 - 2024-03-20(10:35:21 +0000)
+## Release gen_honister_v11.23.1 - 2024-03-20(10:35:21 +0000)
 
 ### Fixes
 
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [AMX] Eventing no longer works for mapped native pcb objects
 
-## Release honister_v11.23.0 - 2024-03-19(17:26:25 +0000)
+## Release gen_honister_v11.23.0 - 2024-03-19(17:26:25 +0000)
 
-## Release honister_v11.22.1 - 2024-03-18(16:00:52 +0000)
+## Release gen_honister_v11.22.1 - 2024-03-18(16:00:52 +0000)
 
-## Release honister_v11.22.0 - 2024-03-18(15:23:32 +0000)
+## Release gen_honister_v11.22.0 - 2024-03-18(15:23:32 +0000)
 
-## Release honister_v11.21.2 - 2024-03-18(13:14:30 +0000)
+## Release gen_honister_v11.21.2 - 2024-03-18(13:14:30 +0000)
 
 ### Other
 
 - [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [ba-cli]When set fails the error must be printed instead of no data found
 
-## Release honister_v11.21.1 - 2024-03-17(18:12:50 +0000)
+## Release gen_honister_v11.21.1 - 2024-03-17(18:12:50 +0000)
 
-## Release honister_v11.21.0 - 2024-03-17(17:52:58 +0000)
+## Release gen_honister_v11.21.0 - 2024-03-17(17:52:58 +0000)
 
-## Release honister_v11.20.0 - 2024-03-15(13:38:43 +0000)
+## Release gen_honister_v11.20.0 - 2024-03-15(13:38:43 +0000)
 
 ### Other
 
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): After reboot all hosts are disconnected (AKA amb timeouts)
 
-## Release honister_v11.19.1 - 2024-03-14(22:19:39 +0000)
+## Release gen_honister_v11.19.1 - 2024-03-14(22:19:39 +0000)
 
 ### Other
 
 - [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Datamodel application generic performance improvement
 
-## Release honister_v11.19.0 - 2024-03-12(13:06:57 +0000)
+## Release gen_honister_v11.19.0 - 2024-03-12(13:06:57 +0000)
 
 ### Other
 
 - [amxo-cg](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg): [AMX][Documentation] Allow to configure the proxied datamodel path in documentation
 
-## Release honister_v11.18.1 - 2024-03-12(12:58:15 +0000)
+## Release gen_honister_v11.18.1 - 2024-03-12(12:58:15 +0000)
 
 ### Other
 
 - [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Hosts tests NOK on Safran
 
-## Release honister_v11.18.0 - 2024-03-11(12:23:54 +0000)
+## Release gen_honister_v11.18.0 - 2024-03-11(12:23:54 +0000)
 
 ### New
 
 - [mod-sahtrace](https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace): [TR181-Syslog] log syslog to a dedicated destination
 
-## Release honister_v11.17.2 - 2024-03-08(13:33:27 +0000)
+## Release gen_honister_v11.17.2 - 2024-03-08(13:33:27 +0000)
 
 ### Other
 
 - [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Update documentation on mutable unique keys
 
-## Release honister_v11.17.1 - 2024-03-08(12:01:47 +0000)
+## Release gen_honister_v11.17.1 - 2024-03-08(12:01:47 +0000)
 
 ### Other
 
 - [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): [AMX] Implement rotation for when a defined max of instances is reached
 
-## Release honister_v11.17.0 - 2024-03-05(09:32:15 +0000)
+## Release gen_honister_v11.17.0 - 2024-03-05(09:32:15 +0000)
 
 ### New
 
 - [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): Add some extra functions in mod_dmext to read/write values directly in files.
 
-## Release honister_v11.16.6 - 2024-03-01(09:57:05 +0000)
+## Release gen_honister_v11.16.6 - 2024-03-01(09:57:05 +0000)
 
 ### Other
 
 - [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): [cli]Always add last command at the bottom of the history
 
-## Release honister_v11.16.5 - 2024-02-29(19:31:40 +0000)
+## Release gen_honister_v11.16.5 - 2024-02-29(19:31:40 +0000)
 
-## Release honister_v11.16.4 - 2024-02-28(12:55:41 +0000)
+## Release gen_honister_v11.16.4 - 2024-02-28(12:55:41 +0000)
 
 ### Fixes
 
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Do not create a subscription if an object is found and the notify flags are not set
 
-## Release honister_v11.16.3 - 2024-02-28(11:31:36 +0000)
+## Release gen_honister_v11.16.3 - 2024-02-28(11:31:36 +0000)
 
 ### Other
 
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [PCB] Add parameter_not_found error code
 
-## Release honister_v11.16.2 - 2024-02-26(11:31:48 +0000)
+## Release gen_honister_v11.16.2 - 2024-02-26(11:31:48 +0000)
 
 ### Other
 
 - [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): [prpl] Authorization header uses 'bearer' instead of 'Bearer'
 
-## Release honister_v11.16.1 - 2024-02-22(17:53:10 +0000)
+## Release gen_honister_v11.16.1 - 2024-02-22(17:53:10 +0000)
 
 ### Other
 
 - [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [ba-cli] "ubus-protected" not working anymore
 
-## Release honister_v11.16.0 - 2024-02-20(17:57:27 +0000)
+## Release gen_honister_v11.16.0 - 2024-02-20(17:57:27 +0000)
 
 ### Fixes
 
 - [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): Correct loop detection for object-changed events
 
-## Release honister_v11.15.0 - 2024-02-20(17:06:45 +0000)
+## Release gen_honister_v11.15.0 - 2024-02-20(17:06:45 +0000)
 
 ### Other
 
 - [lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/lua-amx): [AMX] Lua bindings should only connect to default sockets when the backend is loaded
 
-## Release honister_v11.14.8 - 2024-02-20(09:02:14 +0000)
+## Release gen_honister_v11.14.8 - 2024-02-20(09:02:14 +0000)
 
 ### Other
 
 - [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Amxrt should connect to bus systems before daemonizing
 
-## Release honister_v11.14.7 - 2024-02-19(12:12:08 +0000)
+## Release gen_honister_v11.14.7 - 2024-02-19(12:12:08 +0000)
 
 ### Other
 
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): uspagent -D crash
 
-## Release honister_v11.14.6 - 2024-02-19(09:34:54 +0000)
+## Release gen_honister_v11.14.6 - 2024-02-19(09:34:54 +0000)
 
 ### Fixes
 
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Crash in tr181-device
 
-## Release honister_v11.14.5 - 2024-02-13(11:31:31 +0000)
+## Release gen_honister_v11.14.5 - 2024-02-13(11:31:31 +0000)
 
 ### Other
 
 - [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Functional issues linked to parenthesis escaping in the data model
 
-## Release honister_v11.14.4 - 2024-02-13(10:01:18 +0000)
+## Release gen_honister_v11.14.4 - 2024-02-13(10:01:18 +0000)
 
 ### Fixes
 
@@ -170,59 +170,59 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): tr181-device crashes when using combination of proxy and parameter  synchronistation
 - [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [ba-cli]ba-cli should connect to all available bus systems
 
-## Release honister_v11.14.3 - 2024-02-10(08:59:23 +0000)
+## Release gen_honister_v11.14.3 - 2024-02-10(08:59:23 +0000)
 
 ### Other
 
 - [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): [Prpl] Bad rpath makes build fail on Yocto LCM build
 
-## Release honister_v11.14.2 - 2024-02-07(11:52:23 +0000)
+## Release gen_honister_v11.14.2 - 2024-02-07(11:52:23 +0000)
 
 ### Other
 
 - [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): [dmproxy] Some parameter paths are not well shown in the dm proxy
 
-## Release honister_v11.14.1 - 2024-02-06(12:22:18 +0000)
+## Release gen_honister_v11.14.1 - 2024-02-06(12:22:18 +0000)
 
 ### Other
 
 - [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Crash pwhm on lb6
 
-## Release honister_v11.14.0 - 2024-02-06(09:50:55 +0000)
+## Release gen_honister_v11.14.0 - 2024-02-06(09:50:55 +0000)
 
 ### Other
 
 - [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): CLONE - Functional issues linked to parenthesis escaping in the data model
 - [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [cli]It must be possible to connect to ipv6 lla
 
-## Release honister_v11.13.0 - 2024-02-05(22:17:06 +0000)
+## Release gen_honister_v11.13.0 - 2024-02-05(22:17:06 +0000)
 
 ### Other
 
 - [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [cli]It must be possible to connect to ipv6 lla
 - [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Improve save and load functionality
 
-## Release honister_v11.12.0 - 2024-02-01(15:58:07 +0000)
+## Release gen_honister_v11.12.0 - 2024-02-01(15:58:07 +0000)
 
 ### New
 
 - [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): [AMX] Add ends with expression operator
 
-## Release honister_v11.11.2 - 2024-01-31(11:51:38 +0000)
+## Release gen_honister_v11.11.2 - 2024-01-31(11:51:38 +0000)
 
 ### Other
 
 - [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): [amx-cli] Allow proper escaping of variable in cli for input and display
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [ba-cli] Events are not showed when requested using pcb-cli with gsdm command
 
-## Release honister_v11.11.1 - 2024-01-29(17:35:37 +0000)
+## Release gen_honister_v11.11.1 - 2024-01-29(17:35:37 +0000)
 
 ### Other
 
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [amx][cli] Add syntax to filter parameters list
 - [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): [amx][cli] Add syntax to filter parameters list
 
-## Release honister_v11.11.0 - 2024-01-29(14:05:28 +0000)
+## Release gen_honister_v11.11.0 - 2024-01-29(14:05:28 +0000)
 
 ### Other
 
@@ -231,13 +231,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): [amx][cli] Add syntax to filter parameters list
 - [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [amx][cli] Add syntax to filter parameters list
 
-## Release honister_v11.10.0 - 2024-01-26(21:11:13 +0000)
+## Release gen_honister_v11.10.0 - 2024-01-26(21:11:13 +0000)
 
 ### Other
 
 - [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): [amx][cli] Add syntax to filter parameters list
 
-## Release honister_v11.9.0 - 2024-01-26(13:05:08 +0000)
+## Release gen_honister_v11.9.0 - 2024-01-26(13:05:08 +0000)
 
 ### Other
 
@@ -245,26 +245,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [amx][cli] Add syntax to filter parameters list - fix version check unit test
 - [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Update amxb_set documentation
 
-## Release honister_v11.8.0 - 2024-01-26(07:21:21 +0000)
+## Release gen_honister_v11.8.0 - 2024-01-26(07:21:21 +0000)
 
 ### Other
 
 - [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): [CI][HTTPAccess] Plugin not starting due to race condition with Device.Users
 
-## Release honister_v11.7.0 - 2024-01-26(06:40:11 +0000)
+## Release gen_honister_v11.7.0 - 2024-01-26(06:40:11 +0000)
 
 ### Other
 
 - [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [Ambiorix] Amxb_set and amxb_del should return more info about each parameter
 
-## Release honister_v11.6.0 - 2024-01-19(21:58:18 +0000)
+## Release gen_honister_v11.6.0 - 2024-01-19(21:58:18 +0000)
 
 ### Changes
 
 - [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): [ambiorix][libamxs]Reduce initial sync size to minimum depth for synchronization context
 - [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): [ambiorix][synchronization]The synchronization library must also synchronize sub-objects when an instance is added
 
-## Release honister_v11.5.0 - 2024-01-19(12:19:34 +0000)
+## Release gen_honister_v11.5.0 - 2024-01-19(12:19:34 +0000)
 
 ### Fixes
 
@@ -279,19 +279,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [amx]Datamodels accessed through pcb must respect the pcb notification request flags
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [AMX_PCB] subscribing before creating object, do not get events.
 
-## Release honister_v11.4.0 - 2024-01-18(13:08:08 +0000)
+## Release gen_honister_v11.4.0 - 2024-01-18(13:08:08 +0000)
 
 ### Changes
 
 - [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [ambiorix][synchronization]The synchronization library must also synchronize sub-objects when an instance is added
 
-## Release honister_v11.3.9 - 2024-01-17(22:00:59 +0000)
+## Release gen_honister_v11.3.9 - 2024-01-17(22:00:59 +0000)
 
 ### Other
 
 - [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [BaRt] Failed to handle multiple keys
 
-## Release honister_v11.3.8 - 2024-01-12(07:39:12 +0000)
+## Release gen_honister_v11.3.8 - 2024-01-12(07:39:12 +0000)
 
 ### Fixes
 
@@ -302,28 +302,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [amx]Datamodels accessed through pcb must respect the pcb notification request flags
 
-## Release honister_v11.3.7 - 2024-01-11(09:24:07 +0000)
+## Release gen_honister_v11.3.7 - 2024-01-11(09:24:07 +0000)
 
 ### Fixes
 
 - [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [amx-cli] Allow proper escaping of variable in cli for input and display
 
-## Release honister_v11.3.6 - 2024-01-11(08:10:20 +0000)
+## Release gen_honister_v11.3.6 - 2024-01-11(08:10:20 +0000)
 
 ### Fixes
 
 - [acl-manager](https://gitlab.com/prpl-foundation/components/ambiorix/applications/acl-manager): Adapt description of ambiorix packages
 
-## Release honister_v11.3.5 - 2024-01-10(12:19:33 +0000)
+## Release gen_honister_v11.3.5 - 2024-01-10(12:19:33 +0000)
 
 ### Other
 
 - [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): update documentation for amxb_wait_for_object
 - [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): update documentation for amxb_wait_for_object
 
-## Release honister_v11.3.4 - 2024-01-10(11:05:16 +0000)
+## Release gen_honister_v11.3.4 - 2024-01-10(11:05:16 +0000)
 
-## Release honister_v11.3.3 - 2024-01-10(10:52:08 +0000)
+## Release gen_honister_v11.3.3 - 2024-01-10(10:52:08 +0000)
 
 ### Fixes
 
@@ -331,26 +331,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): [WNC-CHR2][LCM] SoftwareModules cannot be found
 - [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): [amx-cli] Allow proper escaping of variable in cli for input and display
 
-## Release honister_v11.3.2 - 2024-01-10(10:16:15 +0000)
+## Release gen_honister_v11.3.2 - 2024-01-10(10:16:15 +0000)
 
 ### Fixes
 
 - [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Adapt description of ambiorix packages
 - [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): [amx-cli] Allow proper escaping of variable in cli for input and display
 
-## Release honister_v11.3.1 - 2024-01-10(08:35:55 +0000)
+## Release gen_honister_v11.3.1 - 2024-01-10(08:35:55 +0000)
 
 ### Fixes
 
 - [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): [Amxs] Apply sync direction to all child entries recursively
 
-## Release honister_v11.3.0 - 2024-01-08(14:27:52 +0000)
+## Release gen_honister_v11.3.0 - 2024-01-08(14:27:52 +0000)
 
 ### Other
 
 - [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): call destroy callback on root object destruction
 
-## Release honister_v11.2.0 - 2023-12-19(14:46:57 +0000)
+## Release gen_honister_v11.2.0 - 2023-12-19(14:46:57 +0000)
 
 ### New
 
@@ -478,11 +478,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [USP] [Add_msg] Wrong error code in the response when a Add message is requested with an invalid parameter or value.
 - [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): CLONE - [CHR2fA] tr181-device plugin crash (short term)
 
-## Release honister_v11.1.2 - 2023-10-13(14:42:01 +0000)
+## Release gen_honister_v11.1.2 - 2023-10-13(14:42:01 +0000)
 
-## Release honister_v11.1.1 - 2023-10-10(03:24:22 +0000)
+## Release gen_honister_v11.1.1 - 2023-10-10(03:24:22 +0000)
 
-## Release honister_v11.1.0 - 2023-10-09(13:54:34 +0000)
+## Release gen_honister_v11.1.0 - 2023-10-09(13:54:34 +0000)
 
 ### New
 
@@ -535,15 +535,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): [mod_dmproxy] fix missing libsahtrace search path
 - [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): Crash during shutdown
 
-## Release honister_v11.0.4 - 2023-10-09(11:34:29 +0000)
+## Release gen_honister_v11.0.4 - 2023-10-09(11:34:29 +0000)
 
-## Release honister_v11.0.3 - 2023-09-22(09:29:04 +0000)
+## Release gen_honister_v11.0.3 - 2023-09-22(09:29:04 +0000)
 
-## Release honister_v11.0.2 - 2023-09-21(10:25:17 +0000)
+## Release gen_honister_v11.0.2 - 2023-09-21(10:25:17 +0000)
 
-## Release honister_v11.0.1 - 2023-09-13(13:40:05 +0000)
+## Release gen_honister_v11.0.1 - 2023-09-13(13:40:05 +0000)
 
-## Release honister_v11.0.0 - 2023-09-12(17:40:53 +0000)
+## Release gen_honister_v11.0.0 - 2023-09-12(17:40:53 +0000)
 
 ### Breaking
 
@@ -600,7 +600,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Make the AMX Bus Rust API safe-to-use
 - [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): - Refactor libamxrt for compatibility with prplmesh
 
-## Release honister_v10.1.4 - 2023-07-06(13:48:28 +0000)
+## Release gen_honister_v10.1.4 - 2023-07-06(13:48:28 +0000)
 
 ### Fixes
 
@@ -616,7 +616,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [AMX] Define default sockets in backends
 
-## Release honister_v10.1.3 - 2023-06-30(15:18:23 +0000)
+## Release gen_honister_v10.1.3 - 2023-06-30(15:18:23 +0000)
 
 ### Fixes
 
@@ -627,21 +627,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): Add requests with search paths are allowed
 - [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Add requests with search paths are allowed
 
-## Release honister_v10.1.2 - 2023-06-28(12:24:42 +0000)
+## Release gen_honister_v10.1.2 - 2023-06-28(12:24:42 +0000)
 
 ### Fixes
 
 - [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [AMX] Crash with new libamxrt
 
-## Release honister_v10.1.1 - 2023-06-27(19:19:32 +0000)
+## Release gen_honister_v10.1.1 - 2023-06-27(19:19:32 +0000)
 
-## Release honister_v10.1.0 - 2023-06-27(18:29:26 +0000)
+## Release gen_honister_v10.1.0 - 2023-06-27(18:29:26 +0000)
 
 ### New
 
 - [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [amx][capabilities] Add support for reduced capabilities in ambiorix
 
-## Release honister_v10.0.0 - 2023-06-27(16:47:22 +0000)
+## Release gen_honister_v10.0.0 - 2023-06-27(16:47:22 +0000)
 
 ### New
 
@@ -651,7 +651,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Segmentation fault can occur when timers are added or deleted from within a timer callback
 
-## Release honister_v9.0.0 - 2023-06-21(14:39:49 +0000)
+## Release gen_honister_v9.0.0 - 2023-06-21(14:39:49 +0000)
 
 ### New
 
@@ -665,9 +665,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): [ubus-cli] extra rpc arguments not returned
 - [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Remove destructor and use exit function
 
-## Release honister_v8.0.4 - 2023-06-15(07:26:44 +0000)
+## Release gen_honister_v8.0.4 - 2023-06-15(07:26:44 +0000)
 
-## Release honister_v8.0.3 - 2023-06-15(06:22:51 +0000)
+## Release gen_honister_v8.0.3 - 2023-06-15(06:22:51 +0000)
 
 ### Fixes
 
@@ -677,19 +677,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Issue: ambiorix/libraries/libamxd#153 Sending an object event with object, eobject or path in the event data causes never ending loop
 
-## Release honister_v8.0.2 - 2023-06-06(10:34:02 +0000)
+## Release gen_honister_v8.0.2 - 2023-06-06(10:34:02 +0000)
 
 ### Fixes
 
 - [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Add more unit tests
 
-## Release honister_v8.0.1 - 2023-06-02(08:19:41 +0000)
+## Release gen_honister_v8.0.1 - 2023-06-02(08:19:41 +0000)
 
 ### Fixes
 
 - [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Regression in ubus back-end due to changes in error code passing.
 
-## Release honister_v8.0.0 - 2023-06-01(22:27:02 +0000)
+## Release gen_honister_v8.0.0 - 2023-06-01(22:27:02 +0000)
 
 ### New
 
@@ -705,14 +705,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): - [HTTPManager][Login][amx-fcgi] Create a session
 - [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): - [HTTPManager][Login] Increase unit test coverage
 
-## Release honister_v7.5.0 - 2023-06-01(21:12:06 +0000)
+## Release gen_honister_v7.5.0 - 2023-06-01(21:12:06 +0000)
 
 ### New
 
 - [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): [PCB] add option to pcb-cli to mimic operator (usp) access
 - [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): [USP] GSDM events need to be filtered out
 
-## Release honister_v7.4.0 - 2023-05-31(13:14:09 +0000)
+## Release gen_honister_v7.4.0 - 2023-05-31(13:14:09 +0000)
 
 ### New
 
@@ -728,21 +728,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): Update documentation
 
-## Release honister_v7.3.2 - 2023-05-30(09:47:02 +0000)
+## Release gen_honister_v7.3.2 - 2023-05-30(09:47:02 +0000)
 
 ### Fixes
 
 - [lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/lua-amx): Fix return values and throwing errors
 - [mod-lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/mod-lua-amx): Add unit tests
 
-## Release honister_v7.3.1 - 2023-05-26(12:57:44 +0000)
+## Release gen_honister_v7.3.1 - 2023-05-26(12:57:44 +0000)
 
 ### Fixes
 
 - [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): Link with libyajl
 - [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Scheduler does not take correct duration into account when multiple schedules expire at the same moment
 
-## Release honister_v7.3.0 - 2023-05-25(17:03:50 +0000)
+## Release gen_honister_v7.3.0 - 2023-05-25(17:03:50 +0000)
 
 ### New
 
@@ -752,25 +752,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): [USP] Add specific error codes for get instances
 
-## Release honister_v7.2.1 - 2023-05-25(06:49:43 +0000)
+## Release gen_honister_v7.2.1 - 2023-05-25(06:49:43 +0000)
 
-## Release honister_v7.2.0 - 2023-05-24(20:56:23 +0000)
+## Release gen_honister_v7.2.0 - 2023-05-24(20:56:23 +0000)
 
 ### New
 
 - [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): [Security][USP] Add ACLs for get instances to USP agent
 
-## Release honister_v7.1.3 - 2023-05-24(20:29:57 +0000)
+## Release gen_honister_v7.1.3 - 2023-05-24(20:29:57 +0000)
 
-## Release honister_v7.1.2 - 2023-05-24(19:24:33 +0000)
+## Release gen_honister_v7.1.2 - 2023-05-24(19:24:33 +0000)
 
 ### Fixes
 
 - [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [AMX] Get instances supports search paths
 
-## Release honister_v7.1.1 - 2023-05-24(18:22:10 +0000)
+## Release gen_honister_v7.1.1 - 2023-05-24(18:22:10 +0000)
 
-## Release honister_v7.1.0 - 2023-05-24(16:13:04 +0000)
+## Release gen_honister_v7.1.0 - 2023-05-24(16:13:04 +0000)
 
 ### New
 
@@ -785,13 +785,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Documentation is missing for the get_instances operator
 - [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Issue: ambiorix/libraries/libamxb#68 Documentation is missing for the get_instances operator
 
-## Release honister_v7.0.1 - 2023-05-23(11:04:10 +0000)
+## Release gen_honister_v7.0.1 - 2023-05-23(11:04:10 +0000)
 
 ### Other
 
 - [acl-manager](https://gitlab.com/prpl-foundation/components/ambiorix/applications/acl-manager): - [HTTPManager][Login][amx-fcgi] Create a session
 
-## Release honister_v7.0.0 - 2023-05-23(07:48:25 +0000)
+## Release gen_honister_v7.0.0 - 2023-05-23(07:48:25 +0000)
 
 ### Breaking
 
@@ -823,13 +823,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): Issue: ambiorix/applications/amx-fcgi#16 Document how to launch the example webui in a container
 - [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Create the voice interface between ubus and pcb (tr104i1/2 mapper)
 
-## Release honister_v6.1.0 - 2023-05-04(16:01:45 +0000)
+## Release gen_honister_v6.1.0 - 2023-05-04(16:01:45 +0000)
 
 ### New
 
 - [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): Component added
 
-## Release honister_v6.0.0 - 2023-04-25(11:02:43 +0000)
+## Release gen_honister_v6.0.0 - 2023-04-25(11:02:43 +0000)
 
 ### Breaking
 
@@ -850,9 +850,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): has must fail on empty object lookup
 - [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Fix unit-tests, update test odls remove deprecated syntax
 
-## Release honister_v5.1.0 - 2023-04-25(10:48:41 +0000)
+## Release gen_honister_v5.1.0 - 2023-04-25(10:48:41 +0000)
 
-## Release honister_v5.0.0 - 2023-04-20(09:09:59 +0000)
+## Release gen_honister_v5.0.0 - 2023-04-20(09:09:59 +0000)
 
 ### Breaking
 
@@ -939,25 +939,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [USP] Download() is handled synchronously
 - [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): - [amx][mod-dmext] Implement function csv_values_matches_regexp
 
-## Release honister_v4.1.0 - 2023-04-12(16:38:32 +0000)
+## Release gen_honister_v4.1.0 - 2023-04-12(16:38:32 +0000)
 
 ### New
 
 - [lcmsampleapp](https://gitlab.com/prpl-foundation/): Component added
 
-## Release honister_v4.0.4 - 2023-02-14(16:58:11 +0000)
+## Release gen_honister_v4.0.4 - 2023-02-14(16:58:11 +0000)
 
-## Release honister_v4.0.3 - 2023-02-10(22:50:22 +0000)
+## Release gen_honister_v4.0.3 - 2023-02-10(22:50:22 +0000)
 
-## Release honister_v4.0.1 - 2023-02-10(21:19:40 +0000)
+## Release gen_honister_v4.0.1 - 2023-02-10(21:19:40 +0000)
 
-## Release honister_v4.0.0 - 2023-02-09(18:27:43 +0000)
+## Release gen_honister_v4.0.0 - 2023-02-09(18:27:43 +0000)
 
 ### Removed
 
 - [libsahtrace](https://gitlab.com/prpl-foundation/components/core/libraries/libsahtrace): Component removed
 
-## Release honister_v3.6.2 - 2023-02-09(18:12:09 +0000)
+## Release gen_honister_v3.6.2 - 2023-02-09(18:12:09 +0000)
 
 ### Fixes
 
@@ -966,15 +966,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [USP][CDROUTER] GetSupportedDM on Device.LocalAgent. using a single object, first_level_only true, all options presents no event
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [USP] Get requests starting with Device and containing a search path are failing on sop
 
-## Release honister_v3.6.0 - 2023-02-06(15:15:18 +0000)
+## Release gen_honister_v3.6.0 - 2023-02-06(15:15:18 +0000)
 
 ### New
 
 - [libsahtrace](https://gitlab.com/prpl-foundation/components/core/libraries/libsahtrace): Component added
 
-## Release honister_v3.5.2 - 2023-01-31(13:50:44 +0000)
+## Release gen_honister_v3.5.2 - 2023-01-31(13:50:44 +0000)
 
-## Release honister_v3.5.1 - 2023-01-31(12:28:03 +0000)
+## Release gen_honister_v3.5.1 - 2023-01-31(12:28:03 +0000)
 
 ### Fixes
 
@@ -992,7 +992,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): unblock a signal when disabling it with amxp_syssig_enable
 - [lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/lua-amx): Add amxb_set_config support to lua bindings
 
-## Release honister_v3.5.0 - 2023-01-30(12:00:38 +0000)
+## Release gen_honister_v3.5.0 - 2023-01-30(12:00:38 +0000)
 
 ### New
 
@@ -1002,22 +1002,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [python-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/python3): [amx] Error when we try a second reboot
 
-## Release honister_v3.4.0 - 2023-01-27(11:51:35 +0000)
+## Release gen_honister_v3.4.0 - 2023-01-27(11:51:35 +0000)
 
 ### New
 
 - [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): [AMX] Write generic function for setting default parameter values
 
-## Release honister_v3.3.7 - 2023-01-25(13:10:48 +0000)
+## Release gen_honister_v3.3.7 - 2023-01-25(13:10:48 +0000)
 
-## Release honister_v3.3.6 - 2023-01-25(00:29:51 +0000)
+## Release gen_honister_v3.3.6 - 2023-01-25(00:29:51 +0000)
 
 ### Fixes
 
 - [python-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/python3): Path to sut.dm.IP.Interface['3'].IPv4Address['1'].proxy() doenst work
 - [python-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/python3): [amx] Unable to get data model object after a reboot
 
-## Release honister_v3.3.5 - 2023-01-20(13:23:58 +0000)
+## Release gen_honister_v3.3.5 - 2023-01-20(13:23:58 +0000)
 
 ### Fixes
 
@@ -1032,21 +1032,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/lua-amx): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
 - [lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/lua-amx): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
 
-## Release honister_v3.3.4 - 2023-01-13(14:51:11 +0000)
+## Release gen_honister_v3.3.4 - 2023-01-13(14:51:11 +0000)
 
 ### Fixes
 
 - [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [ambiorix] [regression] transaction time is dependent on the number of parameters within the object
 
-## Release honister_v3.3.3 - 2023-01-12(18:31:17 +0000)
+## Release gen_honister_v3.3.3 - 2023-01-12(18:31:17 +0000)
 
-## Release honister_v3.3.2 - 2023-01-12(10:42:10 +0000)
+## Release gen_honister_v3.3.2 - 2023-01-12(10:42:10 +0000)
 
 ### Fixes
 
 - [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [AMX] ACL directory must be updated for mod-ba-cli
 
-## Release honister_v3.3.1 - 2023-01-11(22:41:51 +0000)
+## Release gen_honister_v3.3.1 - 2023-01-11(22:41:51 +0000)
 
 ### Fixes
 
@@ -1055,16 +1055,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [ambiorix] transaction time is dependent on the number of parameters within the object
 - [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): 0-timeout timer postponed when starting another longer timer
 
-## Release honister_v3.3.0 - 2023-01-02(16:23:18 +0000)
+## Release gen_honister_v3.3.0 - 2023-01-02(16:23:18 +0000)
 
 ### New
 
 - [lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/lua-amx): Component added
 - [mod-lua-amx](https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/mod-lua-amx): Component added
 
-## Release honister_v3.2.11 - 2022-12-20(01:36:16 +0000)
+## Release gen_honister_v3.2.11 - 2022-12-20(01:36:16 +0000)
 
-## Release honister_v3.2.10 - 2022-12-20(00:34:22 +0000)
+## Release gen_honister_v3.2.10 - 2022-12-20(00:34:22 +0000)
 
 ### Fixes
 
@@ -1072,19 +1072,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): [multisettings] Using triggers is not effective
 - [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): Parameter with object reference to the same data model causes timeout
 
-## Release honister_v3.2.6 - 2022-12-07(20:02:03 +0000)
+## Release gen_honister_v3.2.6 - 2022-12-07(20:02:03 +0000)
 
-## Release honister_v3.2.5 - 2022-12-07(19:28:45 +0000)
+## Release gen_honister_v3.2.5 - 2022-12-07(19:28:45 +0000)
 
-## Release honister_v3.2.4 - 2022-12-07(18:49:19 +0000)
+## Release gen_honister_v3.2.4 - 2022-12-07(18:49:19 +0000)
 
-## Release honister_v3.2.3 - 2022-12-07(18:39:29 +0000)
+## Release gen_honister_v3.2.3 - 2022-12-07(18:39:29 +0000)
 
-## Release honister_v3.2.2 - 2022-12-07(17:28:16 +0000)
+## Release gen_honister_v3.2.2 - 2022-12-07(17:28:16 +0000)
 
-## Release honister_v3.2.1 - 2022-12-07(11:51:14 +0000)
+## Release gen_honister_v3.2.1 - 2022-12-07(11:51:14 +0000)
 
-## Release honister_v3.2.0 - 2022-12-07(11:14:58 +0000)
+## Release gen_honister_v3.2.0 - 2022-12-07(11:14:58 +0000)
 
 ### New
 
@@ -1105,13 +1105,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Fix some typos in the documentation
 
-## Release honister_v3.1.1 - 2022-12-06(18:55:03 +0000)
+## Release gen_honister_v3.1.1 - 2022-12-06(18:55:03 +0000)
 
 ### Fixes
 
 - [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): amxp_expr_buildf with 2 arguments only works in container, not on board
 
-## Release honister_v3.1.0 - 2022-12-06(15:24:34 +0000)
+## Release gen_honister_v3.1.0 - 2022-12-06(15:24:34 +0000)
 
 ### New
 
@@ -1204,7 +1204,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [USP][CDROUTER] GetSupportedDMResp presents wrong syntaxe of inner nested multi-instanceobject
 - [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [USP][CDROUTER] GetSupportedDM on Device.LocalAgent. using a single object, first_level_only true, all options presents no event
 
-## Release honister_v3.0.0 - 2022-09-27(09:42:17 +0000)
+## Release gen_honister_v3.0.0 - 2022-09-27(09:42:17 +0000)
 
 ### Removed
 
@@ -1234,25 +1234,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Integrate Devolo Interference Mitigation (integration)
 - [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): libamxo build failed because when_true_status() macro is redefined.
 
-## Release honister_v2.6.3 - 2022-09-13(12:08:30 +0000)
+## Release gen_honister_v2.6.3 - 2022-09-13(12:08:30 +0000)
 
 ### Changes
 
 - [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Set config variant before connecting to back-end
 
-## Release honister_v2.6.2 - 2022-09-13(12:06:43 +0000)
+## Release gen_honister_v2.6.2 - 2022-09-13(12:06:43 +0000)
 
 ### Fixes
 
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [AMX] Allow back-ends to modify their config section
 
-## Release honister_v2.6.1 - 2022-09-13(12:03:11 +0000)
+## Release gen_honister_v2.6.1 - 2022-09-13(12:03:11 +0000)
 
 ### Fixes
 
 - [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): [AMX] Allow back-ends to modify their config section
 
-## Release honister_v2.6.0 - 2022-09-13(12:01:34 +0000)
+## Release gen_honister_v2.6.0 - 2022-09-13(12:01:34 +0000)
 
 ### New
 
@@ -1268,14 +1268,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): Rework configuration to work with default lighttpd
 - [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): Use amxa_get to avoid code duplications
 
-## Release honister_v2.5.3 - 2022-09-13(11:59:32 +0000)
+## Release gen_honister_v2.5.3 - 2022-09-13(11:59:32 +0000)
 
 ### Fixes
 
 - [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): no-colors should be set to true by default
 - [amx-cli](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
 
-## Release honister_v2.5.2 - 2022-09-13(11:56:55 +0000)
+## Release gen_honister_v2.5.2 - 2022-09-13(11:56:55 +0000)
 
 ### Fixes
 
@@ -1290,9 +1290,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [amxo-xml-to](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-xml-to): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when...
 
-## Release honister_v2.5.1 - 2022-09-13(11:53:31 +0000)
+## Release gen_honister_v2.5.1 - 2022-09-13(11:53:31 +0000)
 
-## Release honister_v2.5.0 - 2022-09-13(11:47:40 +0000)
+## Release gen_honister_v2.5.0 - 2022-09-13(11:47:40 +0000)
 
 ### New
 
@@ -1308,27 +1308,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): [ACL manager] Update documentation for the acl manager in confluence
 - [libamxa](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa): Issue: ambiorix/libraries/libamxa#24 Implement amxa_get
 
-## Release honister_v2.4.6 - 2022-09-13(11:42:52 +0000)
+## Release gen_honister_v2.4.6 - 2022-09-13(11:42:52 +0000)
 
 ### Fixes
 
 - [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [AMX] Allow back-ends to modify their config section
 
-## Release honister_v2.4.5 - 2022-09-13(11:40:29 +0000)
+## Release gen_honister_v2.4.5 - 2022-09-13(11:40:29 +0000)
 
 ### Fixes
 
 - [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): amx gmap-client modules do not wait for "requires"
 
-## Release honister_v2.4.4 - 2022-09-13(11:32:28 +0000)
+## Release gen_honister_v2.4.4 - 2022-09-13(11:32:28 +0000)
 
-## Release honister_v2.4.3 - 2022-09-13(10:37:04 +0000)
+## Release gen_honister_v2.4.3 - 2022-09-13(10:37:04 +0000)
 
-## Release honister_v2.4.2 - 2022-09-13(10:34:47 +0000)
+## Release gen_honister_v2.4.2 - 2022-09-13(10:34:47 +0000)
 
-## Release honister_v2.4.1 - 2022-09-13(10:30:40 +0000)
+## Release gen_honister_v2.4.1 - 2022-09-13(10:30:40 +0000)
 
-## Release honister_v2.4.0 - 2022-09-13(10:27:46 +0000)
+## Release gen_honister_v2.4.0 - 2022-09-13(10:27:46 +0000)
 
 ### New
 
@@ -1345,119 +1345,119 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [libamxj](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxj): Due to change in libamxc a unit test is failing
 
-## Release honister_v2.3.26 - 2022-08-24(12:24:29 +0000)
+## Release gen_honister_v2.3.26 - 2022-08-24(12:24:29 +0000)
 
 ### Fixes
 
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [USP] TransferComplete! event does not have a Device. prefix
 
-## Release honister_v2.3.25 - 2022-08-24(12:01:41 +0000)
+## Release gen_honister_v2.3.25 - 2022-08-24(12:01:41 +0000)
 
-## Release honister_v2.3.24 - 2022-08-24(10:18:19 +0000)
+## Release gen_honister_v2.3.24 - 2022-08-24(10:18:19 +0000)
 
 ### Fixes
 
 - [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Performing an amxb_async_call on a local deferred data model method doesn't return correctly
 
-## Release honister_v2.3.23 - 2022-08-24(10:02:01 +0000)
+## Release gen_honister_v2.3.23 - 2022-08-24(10:02:01 +0000)
 
 ### Fixes
 
 - [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): [amx] custom param read handler called more often than expected
 
-## Release honister_v2.3.22 - 2022-08-24(09:44:02 +0000)
+## Release gen_honister_v2.3.22 - 2022-08-24(09:44:02 +0000)
 
 ### Fixes
 
 - [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [amx] custom param read handler called more often than expected
 
-## Release honister_v2.3.21 - 2022-08-18(17:03:50 +0000)
+## Release gen_honister_v2.3.21 - 2022-08-18(17:03:50 +0000)
 
-## Release honister_v2.3.20 - 2022-08-18(16:47:42 +0000)
+## Release gen_honister_v2.3.20 - 2022-08-18(16:47:42 +0000)
 
-## Release honister_v2.3.19 - 2022-08-18(14:03:40 +0000)
+## Release gen_honister_v2.3.19 - 2022-08-18(14:03:40 +0000)
 
-## Release honister_v2.3.18 - 2022-08-18(13:59:29 +0000)
+## Release gen_honister_v2.3.18 - 2022-08-18(13:59:29 +0000)
 
 ### Changes
 
 - [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): [GL-B1300] Various components failing to open Service in firewall due to high load and multiple interface toggling
 
-## Release honister_v2.3.17 - 2022-08-18(13:36:06 +0000)
+## Release gen_honister_v2.3.17 - 2022-08-18(13:36:06 +0000)
 
-## Release honister_v2.3.16 - 2022-08-18(13:18:28 +0000)
+## Release gen_honister_v2.3.16 - 2022-08-18(13:18:28 +0000)
 
-## Release honister_v2.3.15 - 2022-08-18(13:03:20 +0000)
+## Release gen_honister_v2.3.15 - 2022-08-18(13:03:20 +0000)
 
 ### Changes
 
 - [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): [GL-B1300] Various components failing to open Service in firewall due to high load and multiple interface toggling
 
-## Release honister_v2.3.14 - 2022-08-17(13:24:24 +0000)
+## Release gen_honister_v2.3.14 - 2022-08-17(13:24:24 +0000)
 
-## Release honister_v2.3.13 - 2022-08-17(13:14:28 +0000)
+## Release gen_honister_v2.3.13 - 2022-08-17(13:14:28 +0000)
 
 ### Changes
 
 - [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Issue: Update ubus capabilities
 
-## Release honister_v2.3.12 - 2022-08-17(10:45:57 +0000)
+## Release gen_honister_v2.3.12 - 2022-08-17(10:45:57 +0000)
 
 ### Fixes
 
 - [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [USP] MQTT IMTP connection cannot handle bus requests
 
-## Release honister_v2.3.11 - 2022-08-17(10:19:39 +0000)
+## Release gen_honister_v2.3.11 - 2022-08-17(10:19:39 +0000)
 
 ### Fixes
 
 - [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): It must be possible to extend composite config options
 
-## Release honister_v2.3.10 - 2022-08-17(09:55:07 +0000)
+## Release gen_honister_v2.3.10 - 2022-08-17(09:55:07 +0000)
 
-## Release honister_v2.3.9 - 2022-08-17(09:49:44 +0000)
+## Release gen_honister_v2.3.9 - 2022-08-17(09:49:44 +0000)
 
 ### Fixes
 
 - [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): allow_partial is not set as an input argument for the set operation
 
-## Release honister_v2.3.8 - 2022-08-17(08:52:07 +0000)
+## Release gen_honister_v2.3.8 - 2022-08-17(08:52:07 +0000)
 
-## Release honister_v2.3.7 - 2022-08-17(08:44:17 +0000)
+## Release gen_honister_v2.3.7 - 2022-08-17(08:44:17 +0000)
 
-## Release honister_v2.3.6 - 2022-08-17(08:35:01 +0000)
+## Release gen_honister_v2.3.6 - 2022-08-17(08:35:01 +0000)
 
-## Release honister_v2.3.5 - 2022-08-17(08:15:25 +0000)
+## Release gen_honister_v2.3.5 - 2022-08-17(08:15:25 +0000)
 
 ### Changes
 
 - [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): amxc_string_split_to_llist not splitting text with newline sperator.
 
-## Release honister_v2.3.4 - 2022-08-16(11:46:57 +0000)
+## Release gen_honister_v2.3.4 - 2022-08-16(11:46:57 +0000)
 
 ### Fixes
 
 - [amx-tr181-localagent-threshold](https://gitlab.com/prpl-foundation/components/ambiorix/examples/datamodel/localagent_threshold): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
 
-## Release honister_v2.3.3 - 2022-08-16(11:32:58 +0000)
+## Release gen_honister_v2.3.3 - 2022-08-16(11:32:58 +0000)
 
 ### Fixes
 
 - [amx-htable-contacts](https://gitlab.com/prpl-foundation/components/ambiorix/examples/collections/htable_contacts): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
 
-## Release honister_v2.3.2 - 2022-08-16(11:29:05 +0000)
+## Release gen_honister_v2.3.2 - 2022-08-16(11:29:05 +0000)
 
 ### Other
 
 - [amxo-cg](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when...
 
-## Release honister_v2.3.1 - 2022-08-16(11:24:28 +0000)
+## Release gen_honister_v2.3.1 - 2022-08-16(11:24:28 +0000)
 
 ### Fixes
 
 - [amx-subscribe](https://gitlab.com/prpl-foundation/components/ambiorix/examples/baapi/subscribe): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
 
-## Release honister_v2.3.0 - 2022-08-16(11:20:48 +0000)
+## Release gen_honister_v2.3.0 - 2022-08-16(11:20:48 +0000)
 
 ### New
 
@@ -1480,7 +1480,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Plugins not starting at boot
 
-## Release honister_v2.2.0 - 2022-08-15(19:48:06 +0000)
+## Release gen_honister_v2.2.0 - 2022-08-15(19:48:06 +0000)
 
 ### New
 
@@ -1514,20 +1514,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Issue: ambiorix/libraries/libamxd#125 Update documentation on return variant of transaction
 - [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Issue: ambiorix/libraries/libamxd#141 Default object write action fails when only setting optional parameters
 
-## Release honister_v2.1.2 - 2022-08-15(18:59:36 +0000)
+## Release gen_honister_v2.1.2 - 2022-08-15(18:59:36 +0000)
 
 ### Fixes
 
 - [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): A quoted string must always be interpreted as a string
 - [libamxt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt): The command parser does not parse embedded string correctly
 
-## Release honister_v2.1.1 - 2022-08-15(18:57:58 +0000)
+## Release gen_honister_v2.1.1 - 2022-08-15(18:57:58 +0000)
 
 ### Fixes
 
 - [libamxm](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxm): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
 
-## Release honister_v2.1.0 - 2022-08-15(18:55:18 +0000)
+## Release gen_honister_v2.1.0 - 2022-08-15(18:55:18 +0000)
 
 ### New
 
@@ -1538,7 +1538,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): [amx] crash on amxp signal read
 - [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when...
 
-## Release honister_v2.0.0 - 2022-08-15(18:40:05 +0000)
+## Release gen_honister_v2.0.0 - 2022-08-15(18:40:05 +0000)
 
 ### Breaking
 
@@ -1576,7 +1576,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Improve documentation
 - [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Add when_failed_status macro
 
-## Release honister_v1.1.1 - 2022-08-15(18:34:06 +0000)
+## Release gen_honister_v1.1.1 - 2022-08-15(18:34:06 +0000)
 
 ### Fixes
 
@@ -1596,7 +1596,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Issue: ambiorix/libraries/libamxo#72 Update documentation on AMXO_ODL_LOADED
 - [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Issue: ambiorix/libraries/libamxo#76 The object write  action is not called during parsing of odl files
 
-## Release honister_v1.1.0 - 2022-08-12(08:26:17 +0000)
+## Release gen_honister_v1.1.0 - 2022-08-12(08:26:17 +0000)
 
 ### New
 
@@ -1616,7 +1616,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [amx-greeter-plugin](https://gitlab.com/prpl-foundation/components/ambiorix/examples/datamodel/greeter_plugin): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when...
 - [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Update ubus dependency
 
-## Release honister_v1.0.0 - 2022-08-11(23:53:48 +0000)
+## Release gen_honister_v1.0.0 - 2022-08-11(23:53:48 +0000)
 
 ### Breaking
 
@@ -1652,7 +1652,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): USP needs async userflags for functions
 - [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Sort objects before building GSDM response
 
-## Release honister_v0.1.0 - 2022-08-02(09:41:04 +0000)
+## Release gen_honister_v0.1.0 - 2022-08-02(09:41:04 +0000)
 
 ### New
 

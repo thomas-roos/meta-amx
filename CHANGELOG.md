@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v11.24.1 - 2024-03-28(07:36:08 +0000)
+
+### Other
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Improve documentation on data model discovery
+
 ## Release gen_honister_v11.24.0 - 2024-03-27(20:13:31 +0000)
 
 ### New

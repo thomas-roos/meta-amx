@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v11.24.2 - 2024-03-28(18:23:52 +0000)
+
+### Fixes
+
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Fix crash on converting string variant without buffer to timestamp
+
 ## Release gen_honister_v11.24.1 - 2024-03-28(07:36:08 +0000)
 
 ### Other

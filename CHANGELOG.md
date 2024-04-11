@@ -8,6 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v11.25.0 - 2024-04-11(15:08:32 +0000)
+
+### New
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Make timeouts configurable.
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Pass configuration to libamxb
+
+### Changes
+
+- [acl-manager](https://gitlab.com/prpl-foundation/components/ambiorix/applications/acl-manager): Make amxb timeouts configurable
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): Make amxb timeouts configurable
+
 ## Release gen_honister_v11.24.9 - 2024-04-10(12:04:35 +0000)
 
 ## Release gen_honister_v11.24.8 - 2024-04-08(09:25:47 +0000)

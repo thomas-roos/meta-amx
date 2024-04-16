@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v11.25.2 - 2024-04-16(21:52:25 +0000)
+
+### Fixes
+
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Fix inconsistency in converting integer signedness
+
 ## Release gen_honister_v11.25.1 - 2024-04-16(11:20:44 +0000)
 
 ### Other

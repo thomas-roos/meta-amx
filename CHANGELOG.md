@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v11.25.1 - 2024-04-16(11:20:44 +0000)
+
+### Other
+
+- [amxo-cg](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg): Parameters must also be notated in xml using supported path notation
+- [libamxm](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxm): [AMXM] Implement amxm_so_error to debug failed amxm_so_open
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): amxrt app exits immediately on LXC due to capdrop error
+
 ## Release gen_honister_v11.25.0 - 2024-04-11(15:08:32 +0000)
 
 ### New

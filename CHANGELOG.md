@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v11.25.3 - 2024-04-18(12:21:16 +0000)
+
+### Fixes
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [AMX] Config variable not reset when backends are freed
+
+### Changes
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Allow multiple registrations for the same bus context
+
 ## Release gen_honister_v11.25.2 - 2024-04-16(21:52:25 +0000)
 
 ### Fixes

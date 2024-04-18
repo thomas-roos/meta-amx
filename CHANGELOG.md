@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v11.26.1 - 2024-04-18(17:27:15 +0000)
+
+### Fixes
+
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Expose getter and eval binary expression tree functions
+
 ## Release gen_honister_v11.26.0 - 2024-04-18(15:45:44 +0000)
 
 ### New

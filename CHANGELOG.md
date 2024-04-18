@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v11.26.0 - 2024-04-18(15:45:44 +0000)
+
+### New
+
+- [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): Extend verify with verify_mapped and mappings
+
+### Fixes
+
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Fix test dependencies
+
 ## Release gen_honister_v11.25.3 - 2024-04-18(12:21:16 +0000)
 
 ### Fixes

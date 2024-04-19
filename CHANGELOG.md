@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v11.26.2 - 2024-04-19(16:10:53 +0000)
+
+### Other
+
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Update reference to mod-dmext
+
 ## Release gen_honister_v11.26.1 - 2024-04-18(17:27:15 +0000)
 
 ### Fixes

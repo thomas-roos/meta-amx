@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v11.27.0 - 2024-04-22(11:12:13 +0000)
+
+### New
+
+- [dmtui](https://gitlab.com/prpl-foundation/components/ambiorix/amxlab/tui/applications/dmtui): Component added
+- [libamxtui](https://gitlab.com/prpl-foundation/components/ambiorix/amxlab/tui/libraries/libamxtui): Component added
+
 ## Release gen_honister_v11.26.2 - 2024-04-19(16:10:53 +0000)
 
 ### Other

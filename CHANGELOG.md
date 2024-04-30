@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.0.0 - 2024-04-30(10:18:23 +0000)
+
+### New
+
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): Add `+=` syntax for appending lists in config sections
+
+### Other
+
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): The amxo parser struct contains unused fields and should be removed
+
 ## Release gen_honister_v14.0.1 - 2024-04-30(08:34:18 +0000)
 
 ## Release gen_honister_v14.0.0 - 2024-04-30(08:17:00 +0000)

@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v12.0.0 - 2024-04-30(07:10:20 +0000)
+
+### New
+
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): add amxc_var_add_value()
+
+### Other
+
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Improve documentation of amxc_ts_to_tm functions
+
 ## Release gen_honister_v11.27.5 - 2024-04-28(20:04:15 +0000)
 
 ## Release gen_honister_v11.27.4 - 2024-04-26(21:18:06 +0000)

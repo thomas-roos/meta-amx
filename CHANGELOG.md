@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v14.0.0 - 2024-04-30(08:17:00 +0000)
+
+### Other
+
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Fix typo in documentation
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Avoid g++ compiler warning for new .add_value variant function pointer
+
 ## Release gen_honister_v13.0.0 - 2024-04-30(07:31:49 +0000)
 
 ### Other

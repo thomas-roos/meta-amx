@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.1.3 - 2024-05-07(10:33:57 +0000)
+
+### Other
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [amxd] amxd_trans_set_param with NULL value makes the amxd_trans_apply failIgnore null variants
+
 ## Release gen_honister_v15.1.2 - 2024-05-07(09:37:40 +0000)
 
 ### Other

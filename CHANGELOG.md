@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.2.0 - 2024-05-07(16:21:23 +0000)
+
+### New
+
+- [mod-dmext](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext): Add write action to strip dot from paths
+
 ## Release gen_honister_v15.1.4 - 2024-05-07(10:56:43 +0000)
 
 ## Release gen_honister_v15.1.3 - 2024-05-07(10:33:57 +0000)

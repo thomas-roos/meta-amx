@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.1.2 - 2024-05-07(09:37:40 +0000)
+
+### Other
+
+- [amxo-cg](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg): Take counter parameter attributes into account
+
 ## Release gen_honister_v15.1.1 - 2024-05-06(06:58:32 +0000)
 
 ## Release gen_honister_v15.1.0 - 2024-05-04(18:21:12 +0000)

@@ -8,6 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.2.3 - 2024-05-14(10:55:51 +0000)
+
+### Other
+
+- [libamxj](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxj): [Security][ambiorix]Some libraries are not compiled with Fortify-Source
+- [libamxm](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxm): [Security][ambiorix]Some libraries are not compiled with Fortify-Source
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): [Security][ambiorix]Some libraries are not compiled with Fortify-Source
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [Security][ambiorix]Some libraries are not compiled with Fortify-Source
+
 ## Release gen_honister_v15.2.2 - 2024-05-14(09:44:05 +0000)
 
 ## Release gen_honister_v15.2.1 - 2024-05-10(06:14:43 +0000)

@@ -9,7 +9,7 @@ inherit pkgconfig config-amx
 
 SUMMARY = ""
 LICENSE += "SAH"
-LIC_FILES_CHKSUM += "file://LICENSE;md5=87f936f5d9d60bf1e6b689253d476202"
+LIC_FILES_CHKSUM += "file://LICENSE;md5=0932cf5fc39598749a450b17fb33898c"
 
 COMPONENT = "libamx-mqtt-client"
 

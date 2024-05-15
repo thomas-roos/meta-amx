@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.3.0 - 2024-05-15(12:03:33 +0000)
+
+### New
+
+- [libamx-mqtt-client](https://gitlab.softathome.com/ext_prpl/components/libamx-mqtt-client): Component added
+- [libdhcpoptions](https://gitlab.com/prpl-foundation/components/core/libraries/libdhcpoptions): Component added
+
 ## Release gen_honister_v15.2.3 - 2024-05-14(10:55:51 +0000)
 
 ### Other

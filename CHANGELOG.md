@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.3.2 - 2024-05-16(13:08:29 +0000)
+
+### Other
+
+- [mod-dmproxy](https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy): [tr181-device -D][Memory leak] tr181-device -D is consuming 55MB in 4days
+
 ## Release gen_honister_v15.3.1 - 2024-05-16(12:05:48 +0000)
 
 ### Fixes

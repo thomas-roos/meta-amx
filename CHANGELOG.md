@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.3.1 - 2024-05-16(12:05:48 +0000)
+
+### Fixes
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): - amxd_dm_invoke_action_impl missing test before the callback call (fn)
+
+### Other
+
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [tr181-device -D][Memory leak] tr181-device -D is consuming 55MB in 4days
+
 ## Release gen_honister_v15.3.0 - 2024-05-15(12:03:33 +0000)
 
 ### New

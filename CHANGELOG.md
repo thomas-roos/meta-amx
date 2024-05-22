@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.3.4 - 2024-05-22(13:10:25 +0000)
+
+### Other
+
+- [libamxo](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo): libamxrt: boot logs are flooded with Include file not found "extensions/" messages
+
 ## Release gen_honister_v15.3.3 - 2024-05-21(21:05:20 +0000)
 
 ### Other

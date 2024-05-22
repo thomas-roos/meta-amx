@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.3.5 - 2024-05-22(16:42:30 +0000)
+
+### Other
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [amx] Improve Ambiorix const correctness
+
 ## Release gen_honister_v15.3.4 - 2024-05-22(13:10:25 +0000)
 
 ### Other

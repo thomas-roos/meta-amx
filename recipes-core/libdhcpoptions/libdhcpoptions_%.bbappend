@@ -1,3 +1,5 @@
+FILES:${PN}-dev:remove = "${LIBDIR}/${COMPONENT}${SOLIBSDEV}"
 FILES:${PN} += "${LIBDIR}/${COMPONENT}${SOLIBSDEV}"
+
 FILES_SOLIBSDEV = ""
 INSANE_SKIP:${PN} += "dev-so"

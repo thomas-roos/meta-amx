@@ -1,0 +1,3 @@
+FILES:${PN} += "/lib/${COMPONENT}${SOLIBSDEV}"
+FILES_SOLIBSDEV = ""
+INSANE_SKIP:${PN} += "dev-so"

@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.3.9 - 2024-05-24(11:48:05 +0000)
+
+### Other
+
+- [amxo-cg](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg): Make it possible to generate a full xml using all odl files available in a root-fs
+
 ## Release gen_honister_v15.3.8 - 2024-05-23(22:11:59 +0000)
 
 ## Release gen_honister_v15.3.7 - 2024-05-23(08:39:04 +0000)

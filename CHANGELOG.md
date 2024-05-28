@@ -8,6 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.3.14 - 2024-05-28(09:05:51 +0000)
+
+### Other
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Make it possible to set backend load priority
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Make it possible to set backend load priority
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Make it possible to set backend load priority
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Make it possible to set backend load priority
+
 ## Release gen_honister_v15.3.13 - 2024-05-28(07:54:27 +0000)
 
 ## Release gen_honister_v15.3.12 - 2024-05-27(13:30:09 +0000)

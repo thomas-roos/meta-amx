@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.3.15 - 2024-05-28(12:56:37 +0000)
+
+### Other
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Make it possible to set backend load priority
+
 ## Release gen_honister_v15.3.14 - 2024-05-28(09:05:51 +0000)
 
 ### Other

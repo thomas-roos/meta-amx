@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.4.1 - 2024-05-31(05:57:16 +0000)
+
+### Other
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Revert backend order implementation
+
 ## Release gen_honister_v15.4.0 - 2024-05-30(09:49:55 +0000)
 
 ## Release gen_honister_v15.3.17 - 2024-05-28(16:04:13 +0000)

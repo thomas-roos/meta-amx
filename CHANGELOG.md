@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.4.2 - 2024-06-14(13:12:41 +0000)
+
+### Other
+
+- [libamx-mqtt-client](https://gitlab.softathome.com/ext_prpl/components/libamx-mqtt-client): Add function to lib amx mqtt client to choose socket location
+
 ## Release gen_honister_v15.4.1 - 2024-05-31(05:57:16 +0000)
 
 ### Other

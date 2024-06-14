@@ -1,7 +1,7 @@
 
 
 SRC_URI = "git://gitlab.softathome.com/ext_prpl/components/libamx-mqtt-client.git;protocol=https;nobranch=1"
-SRCREV = "v0.2.4"
+SRCREV = "v0.2.5"
 
 S = "${WORKDIR}/git"
 
@@ -9,7 +9,7 @@ inherit pkgconfig config-amx
 
 SUMMARY = ""
 LICENSE += "SAH"
-LIC_FILES_CHKSUM += "file://LICENSE;md5=0932cf5fc39598749a450b17fb33898c"
+LIC_FILES_CHKSUM += "file://LICENSE;md5=87f936f5d9d60bf1e6b689253d476202"
 
 COMPONENT = "libamx-mqtt-client"
 

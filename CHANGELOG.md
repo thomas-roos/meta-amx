@@ -8,6 +8,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.4.3 - 2024-06-17(13:22:37 +0000)
+
+### Fixes
+
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): segfault in libamxc amxc_string_to_upper and to_lower APIs providing an amxc string with a null buffer
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): [prpl] libamxs loopback detection issue on initial sync
+
+### Other
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Make it possible to set backend load priority
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Respect backend load order when no backend-order is defined
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): Set file capabilities on subprocess execution
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Make it possible to set backend load priority
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Make it possible to set backend load priority
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Make it possible to set backend load priority
+
 ## Release gen_honister_v15.4.2 - 2024-06-14(13:12:41 +0000)
 
 ### Other

@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.4.4 - 2024-06-18(09:26:18 +0000)
+
+### Other
+
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): DHCPv6Client/DHCPv6Server in misconfigured state
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): amxp: crash in amxp_signal_read() when suspending/resuming a signal manager
+
 ## Release gen_honister_v15.4.3 - 2024-06-17(13:22:37 +0000)
 
 ### Fixes

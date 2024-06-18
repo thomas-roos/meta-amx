@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.4.5 - 2024-06-18(09:59:36 +0000)
+
+### Fixes
+
+- [libamxs](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs): Handle events from the amxs signal manager, if available, before other events
+
 ## Release gen_honister_v15.4.4 - 2024-06-18(09:26:18 +0000)
 
 ### Other

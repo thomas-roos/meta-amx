@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.5.1 - 2024-06-20(08:27:31 +0000)
+
+### Other
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): [TR181-Device]Bidirectional communication support between UBUS and IMTP
+
 ## Release gen_honister_v15.5.0 - 2024-06-20(07:56:22 +0000)
 
 ### Other

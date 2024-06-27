@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.6.0 - 2024-06-27(09:14:20 +0000)
+
+### Fixes
+
+- [acl-manager](https://gitlab.com/prpl-foundation/components/ambiorix/applications/acl-manager): - Add missing dependency on acl group
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Set request destroy handler on subscription requests
+
 ## Release gen_honister_v15.5.2 - 2024-06-20(14:01:22 +0000)
 
 ### Fixes

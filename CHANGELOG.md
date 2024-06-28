@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.6.4 - 2024-06-28(11:41:39 +0000)
+
+### Other
+
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Calculate remaining time of timers before checking and updating the state
+
 ## Release gen_honister_v15.6.3 - 2024-06-28(08:09:06 +0000)
 
 ### Other

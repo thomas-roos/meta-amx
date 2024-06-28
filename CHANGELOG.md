@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.6.3 - 2024-06-28(08:09:06 +0000)
+
+### Other
+
+- [libamxd](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd): Key parameters without read-only in definition are write-once and must be reported as read-write in gsdm
+
 ## Release gen_honister_v15.6.2 - 2024-06-28(05:36:28 +0000)
 
 ### New

@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.6.2 - 2024-06-28(05:36:28 +0000)
+
+### New
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [AMX] Add function to get backend name from uri
+
+### Other
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Subscriptions on non existing objects must fail
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Drop invalid events early
+
 ## Release gen_honister_v15.6.1 - 2024-06-27(14:40:29 +0000)
 
 ## Release gen_honister_v15.6.0 - 2024-06-27(09:14:20 +0000)

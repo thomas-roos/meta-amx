@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.6.5 - 2024-07-01(14:07:28 +0000)
+
+### Other
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): It must be possible to take subscriptions on none amx objects.
+
 ## Release gen_honister_v15.6.4 - 2024-06-28(11:41:39 +0000)
 
 ### Other

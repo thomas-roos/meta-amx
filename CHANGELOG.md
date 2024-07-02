@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.6.7 - 2024-07-02(12:38:21 +0000)
+
+### Other
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): [ba-cli] Unable to get protected object when using Device.
+
 ## Release gen_honister_v15.6.6 - 2024-07-02(12:04:15 +0000)
 
 ### Other

@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.7.0 - 2024-07-02(13:13:21 +0000)
+
+### Other
+
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [ba-cli]Crash when removing backend with open connections
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): [ba-cli]It must be possible to set protected mode on all open connections
+
 ## Release gen_honister_v15.6.7 - 2024-07-02(12:38:21 +0000)
 
 ### Other

@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.6.6 - 2024-07-02(12:04:15 +0000)
+
+### Other
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Remove subscriber from list when request is destroyed
+
 ## Release gen_honister_v15.6.5 - 2024-07-01(14:07:28 +0000)
 
 ### Other

@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.7.2 - 2024-07-03(19:26:09 +0000)
+
+### Fixes
+
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Disconnect the amxrt_wait_done callback before handling events
+
 ## Release gen_honister_v15.7.1 - 2024-07-03(11:42:47 +0000)
 
 ### Other

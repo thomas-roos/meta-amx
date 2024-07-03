@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.7.1 - 2024-07-03(11:42:47 +0000)
+
+### Other
+
+- [amxo-cg](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg): Attribute mutable is missing
+
 ## Release gen_honister_v15.7.0 - 2024-07-02(13:13:21 +0000)
 
 ### Other

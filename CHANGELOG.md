@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.7.4 - 2024-07-05(10:51:38 +0000)
+
+### Other
+
+- [libamxj](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxj): Improve documentation and unit tests for amxj_write
+
 ## Release gen_honister_v15.7.3 - 2024-07-04(15:42:25 +0000)
 
 ## Release gen_honister_v15.7.2 - 2024-07-03(19:26:09 +0000)

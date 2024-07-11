@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.8.0 - 2024-07-11(13:29:40 +0000)
+
+### Other
+
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): [USP][AMX] Add connection retry mechanism for broken connections
+
 ## Release gen_honister_v15.7.6 - 2024-07-10(14:29:54 +0000)
 
 ### Other

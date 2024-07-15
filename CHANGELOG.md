@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.9.0 - 2024-07-15(09:48:23 +0000)
+
+### Fixes
+
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): - Apply process capabilities after obtaining the required plugin objects
+
+### Other
+
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): amxp: add amxp_subproc_close_fd(amxp_subproc_t* proc, int fd)
+- [libamxp](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp): amxp: fds from amxp_subproc_open_fd() must not be O_NONBLOCK for the child
+
 ## Release gen_honister_v15.8.0 - 2024-07-11(13:29:40 +0000)
 
 ### Other

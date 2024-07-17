@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.11.1 - 2024-07-17(08:54:48 +0000)
+
+### Other
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): [AMX] Lib amxb crashes due to doube free call
+
 ## Release gen_honister_v15.11.0 - 2024-07-17(08:39:35 +0000)
 
 ### Fixes

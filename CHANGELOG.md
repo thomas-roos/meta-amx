@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.11.0 - 2024-07-17(08:39:35 +0000)
+
+### Fixes
+
+- [amxrt](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt): Move amx init functions to related component
+
 ## Release gen_honister_v15.10.0 - 2024-07-16(12:42:37 +0000)
 
 ### Other

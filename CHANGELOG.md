@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.12.0 - 2024-07-18(13:53:14 +0000)
+
+### Other
+
+- [libamxb](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb): Bus statistics: backend interface, client interface, basic common stats
+
 ## Release gen_honister_v15.11.1 - 2024-07-17(08:54:48 +0000)
 
 ### Other

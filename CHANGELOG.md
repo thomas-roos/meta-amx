@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.13.0 - 2024-07-24(09:02:22 +0000)
+
+### Other
+
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Bus statistics: basic counters
+- [mod-amxb-ubus](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus): Bus statistics: basic counters
+
 ## Release gen_honister_v15.12.0 - 2024-07-18(13:53:14 +0000)
 
 ### Other

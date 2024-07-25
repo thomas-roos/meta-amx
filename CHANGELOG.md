@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.14.0 - 2024-07-25(08:35:56 +0000)
+
+### Other
+
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): Remove length argument of hash functions
+- [libamxm](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxm): Fix example in libamxm
+
 ## Release gen_honister_v15.13.0 - 2024-07-24(09:02:22 +0000)
 
 ### Other

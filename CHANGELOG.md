@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.14.2 - 2024-07-26(11:38:38 +0000)
+
+### Other
+
+- [amxo-cg](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg): Some private parameters are still present in the AMX/XML file
+
 ## Release gen_honister_v15.14.1 - 2024-07-26(09:52:03 +0000)
 
 ### Other

@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.14.1 - 2024-07-26(09:52:03 +0000)
+
+### Other
+
+- [mod-ba-cli](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli): Setting an empty string is passing a NULL variant
+
 ## Release gen_honister_v15.14.0 - 2024-07-25(08:35:56 +0000)
 
 ### Other

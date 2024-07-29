@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.14.3 - 2024-07-29(11:39:58 +0000)
+
+### Fixes
+
+- [acl-manager](https://gitlab.com/prpl-foundation/components/ambiorix/applications/acl-manager): Better shutdown script
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): Better shutdown script
+
 ## Release gen_honister_v15.14.2 - 2024-07-26(11:38:38 +0000)
 
 ### Other

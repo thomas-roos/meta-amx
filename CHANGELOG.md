@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.15.2 - 2024-07-30(21:19:56 +0000)
+
+### Other
+
+- [amx-fcgi](https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi): NOT-20 Unauthenticated Web UI Denial of Service
+
 ## Release gen_honister_v15.15.1 - 2024-07-30(16:26:58 +0000)
 
 ### Other

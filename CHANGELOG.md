@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.15.0 - 2024-07-30(15:08:35 +0000)
+
+### New
+
+- [libamxc](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc): : Add new helpers for Set module
+
 ## Release gen_honister_v15.14.4 - 2024-07-30(12:31:34 +0000)
 
 ### Other

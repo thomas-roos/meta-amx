@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.15.1 - 2024-07-30(16:26:58 +0000)
+
+### Other
+
+- [libamxj](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxj): NOT-20 Unauthenticated Web UI Denial of Service
+
 ## Release gen_honister_v15.15.0 - 2024-07-30(15:08:35 +0000)
 
 ### New

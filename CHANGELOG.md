@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v15.14.4 - 2024-07-30(12:31:34 +0000)
+
+### Other
+
+- [libamxrt](https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt): Avoid double USP connections to the same sockets
+- [mod-amxb-pcb](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_pcb): Sub-object synchronisation initalize with wrong value with pcb-plugin
+
 ## Release gen_honister_v15.14.3 - 2024-07-29(11:39:58 +0000)
 
 ### Fixes

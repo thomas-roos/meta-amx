@@ -20,12 +20,11 @@ S = "${WORKDIR}/git"
 inherit cmake openwrt-lua openwrt-virtual-runtimes pkgconfig
 
 EXTRA_OECMAKE += "\
-                -DCMAKE_INSTALL_LIBDIR:PATH=/lib \
+                -DCMAKE_INSTALL_LIBDIR:PATH=${libdir} \
                 "
 
 do_install:append(){
-    install -dm 0755 ${D}/sbin
-    ln -s /usr/sbin/ubusd ${D}/sbin/ubusd
+    install -dm 0755 ${D}/${sbindir}
 
     install -m 0755 ${S}/lua/publisher.lua ${D}${bindir}
     install -m 0755 ${S}/lua/subscriber.lua ${D}${bindir}
@@ -41,7 +40,7 @@ PACKAGES =+ "\
             "
 
 FILES_SOLIBSDEV = ""
-FILES:lib${PN}${ABI_VERSION} += "/lib/libubus.so"
+FILES:lib${PN}${ABI_VERSION} += "${libdir}/libubus.so"
 FILES:lib${PN}-lua += "${libdir}/lua/5.3/*"
 FILES:lib${PN}-examples += "${bindir}/*.lua"
 FILES:${PN}d += "${sbindir} ${base_sbindir}"

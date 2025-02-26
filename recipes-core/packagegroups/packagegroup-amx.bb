@@ -23,4 +23,5 @@ RDEPENDS:${PN} = " \
     ${@bb.utils.contains('LCM_SYSBUS','ubus','mod-amxb-ubus','',d)} \
     "
 
-
+# fixing the issue: An allarch packagegroup shouldn't depend on packages which are dynamically renamed
+PACKAGE_ARCH = "${MACHINE_ARCH}"

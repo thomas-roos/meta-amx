@@ -45,7 +45,7 @@ EXTRA_OECMAKE += "\
                 -DBUILD_LUA=${@bb.utils.contains('PACKAGECONFIG', 'lua', 'ON', 'OFF', d)} \
                 -DBUILD_EXAMPLES=${@bb.utils.contains('PACKAGECONFIG', 'examples', 'ON', 'OFF', d)} \
                 -DCMAKE_SKIP_RPATH=ON \
-                -DCMAKE_INSTALL_LIBDIR:PATH=/lib \
+                -DCMAKE_INSTALL_LIBDIR:PATH=${libdir} \
                 "
 
 do_install:append() {
@@ -73,10 +73,10 @@ PACKAGES =+ "\
             ${@bb.utils.contains('PACKAGECONFIG', 'lua', '${PN}-lua', '', d)} \
             "
 
-FILES:${PN}${ABI_VERSION} = "/lib/libubox.so"
+FILES:${PN}${ABI_VERSION} = "${libdir}/libubox.so"
 FILES:jshn = "${datadir}/* ${bindir}/jshn"
-FILES:libblobmsg-json = "/lib/libblobmsg_json.so"
-FILES:libjson-script = "/lib/libjson_script.so"
+FILES:libblobmsg-json = "${libdir}/libblobmsg_json.so"
+FILES:libjson-script = "${libdir}/libjson_script.so"
 FILES:${PN}-lua += "${libdir}/lua/5.3/*"
 FILES:${PN}-examples += "${bindir}/*-example \
                         ${bindir}/uloop-example.lua \

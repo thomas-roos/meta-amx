@@ -13,7 +13,7 @@ LIC_FILES_CHKSUM += "file://LICENSE;md5=cd9db409406fd4c7234d852479547016"
 
 COMPONENT = "libamxp"
 
-
+TARGET_CFLAGS:append = " -Wno-error=unused-result"
 
 export CONFIG_SAH_LIB_AMXP
 

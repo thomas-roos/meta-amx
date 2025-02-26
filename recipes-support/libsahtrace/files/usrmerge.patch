@@ -1,0 +1,15 @@
+Index: git/makefile
+===================================================================
+--- git.orig/makefile
++++ git/makefile
+@@ -23,8 +23,8 @@ clean:
+ install:
+ 	$(INSTALL) -d -m 0755 $(D)/$(INCLUDEDIR)/debug
+ 	$(INSTALL) -D -p -m 0644 include/debug/*.h $(D)$(INCLUDEDIR)/debug/
+-	$(INSTALL) -D -p -m 0755 src/$(COMPONENT).so $(D)/lib/$(COMPONENT).so.$(PV)
+-	ln -sfr $(D)/lib/$(COMPONENT).so.$(PV) $(D)/lib/$(COMPONENT).so
++	$(INSTALL) -D -p -m 0755 src/$(COMPONENT).so $(D)/$(LIBDIR)/$(COMPONENT).so.$(PV)
++	ln -sfr $(D)/$(LIBDIR)/$(COMPONENT).so.$(PV) $(D)/$(LIBDIR)/$(COMPONENT).so
+ 	$(INSTALL) -D -p -m 0644 pkgconfig/pkg-config.pc $(PKG_CONFIG_LIBDIR)/sahtrace.pc
+
+ .PHONY: compile clean install

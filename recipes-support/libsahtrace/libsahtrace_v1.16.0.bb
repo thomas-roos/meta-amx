@@ -1,6 +1,7 @@
-
-
-SRC_URI = "git://gitlab.com/prpl-foundation/components/core/libraries/libsahtrace.git;protocol=https;nobranch=1"
+SRC_URI = "\
+    git://gitlab.com/prpl-foundation/components/core/libraries/libsahtrace.git;protocol=https;nobranch=1 \
+    file://usrmerge.patch \
+    "
 SRCREV = "v1.16.0"
 
 S = "${WORKDIR}/git"
@@ -49,6 +50,6 @@ EXTRA_OEMAKE += "DEST=${D} \
                  "
 
 FILES:${PN}-dev += "${INCLUDEDIR}/debug/*.h"
-FILES:${PN} += "/lib/${COMPONENT}${SOLIBS}"
-FILES:${PN}-dev += "/lib/${COMPONENT}${SOLIBSDEV}"
+FILES:${PN} += "${libdir}/${COMPONENT}${SOLIBS}"
+FILES:${PN}-dev += "${libdir}/${COMPONENT}${SOLIBSDEV}"
 FILES:${PN}-dev += "${PKG_CONFIG_LIBDIR}/sahtrace.pc"
